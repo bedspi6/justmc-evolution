@@ -44,6 +44,12 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "head_predator_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 35
@@ -85,6 +91,18 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "head_predator_2"
+        }
+      },
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "torso_symbiotic_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 60
@@ -94,14 +112,7 @@
         "type": "resource",
         "data": {
           "item": "neurotoxin_resin",
-          "amount": 3
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "neurotoxin_resin",
-          "amount": 5
+          "amount": 8
         }
       }
     ],
@@ -174,6 +185,12 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "head_scavenger_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 35
@@ -214,6 +231,18 @@
       "type": "sculk_sensor"
     },
     "requirements": [
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "head_scavenger_2"
+        }
+      },
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "tail_mobility_1"
+        }
+      },
       {
         "type": "mutation_points",
         "data": {
@@ -297,6 +326,12 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "head_defensive_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 35
@@ -337,6 +372,18 @@
       "type": "netherite_scrap"
     },
     "requirements": [
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "head_defensive_2"
+        }
+      },
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "torso_tank_2"
+        }
+      },
       {
         "type": "mutation_points",
         "data": {
@@ -420,6 +467,12 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "torso_tank_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 35
@@ -460,6 +513,12 @@
       "type": "glow_berries"
     },
     "requirements": [
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "torso_tank_2"
+        }
+      },
       {
         "type": "mutation_points",
         "data": {
@@ -543,6 +602,12 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "torso_agile_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 35
@@ -583,6 +648,12 @@
       "type": "sugar"
     },
     "requirements": [
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "torso_agile_2"
+        }
+      },
       {
         "type": "mutation_points",
         "data": {
@@ -666,6 +737,12 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "torso_symbiotic_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 35
@@ -706,6 +783,12 @@
       "type": "slime_ball"
     },
     "requirements": [
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "torso_symbiotic_2"
+        }
+      },
       {
         "type": "mutation_points",
         "data": {
@@ -782,6 +865,12 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "tail_assault_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 35
@@ -822,6 +911,12 @@
       "type": "spider_eye"
     },
     "requirements": [
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "tail_assault_2"
+        }
+      },
       {
         "type": "mutation_points",
         "data": {
@@ -905,6 +1000,12 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "tail_mobility_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 35
@@ -945,6 +1046,12 @@
       "type": "vine"
     },
     "requirements": [
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "tail_mobility_2"
+        }
+      },
       {
         "type": "mutation_points",
         "data": {
@@ -1028,6 +1135,12 @@
     },
     "requirements": [
       {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "tail_utility_1"
+        }
+      },
+      {
         "type": "mutation_points",
         "data": {
           "amount": 35
@@ -1068,6 +1181,12 @@
       "type": "glow_ink_sac"
     },
     "requirements": [
+      {
+        "type": "node_unlocked",
+        "data": {
+          "nodeId": "tail_utility_2"
+        }
+      },
       {
         "type": "mutation_points",
         "data": {

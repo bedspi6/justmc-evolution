@@ -17,7 +17,7 @@
     "display_item": {
       "name": "Хвост",
       "lore": "<gray>Равновесие, скорость и второе оружие.",
-      "type": "chain"
+      "type": "iron_chain"
     }
   }
 }

@@ -1,0 +1,222 @@
+{
+  "biteDamage": {
+    "type": "manual",
+    "base_value": 1,
+    "display_item": {
+      "name": "Урон укуса",
+      "lore": "Насколько сильно бьёт челюсть.",
+      "type": "iron_sword"
+    }
+  },
+  "attackSpeed": {
+    "type": "manual",
+    "base_value": 100,
+    "display_item": {
+      "name": "Скорость атаки",
+      "lore": "Насколько быстро наносится укус.",
+      "type": "clock"
+    }
+  },
+  "rangedDamage": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Дальний урон",
+      "lore": "Сила броскового удара.",
+      "type": "spider_eye"
+    }
+  },
+  "detectionRadius": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Радиус обнаружения",
+      "lore": "Как далеко существо чувствует ресурсы и мобов.",
+      "type": "spyglass"
+    }
+  },
+  "harvestYield": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Выход ресурсов",
+      "lore": "Сколько дополнительных ресурсов даёт добыча.",
+      "type": "wheat"
+    }
+  },
+  "knockbackResistance": {
+    "type": "attribute",
+    "attribute_id": "generic.knockback_resistance",
+    "base_value": 0,
+    "display_item": {
+      "name": "Устойчивость к отбрасыванию",
+      "lore": "Сопротивление отбрасыванию при ударе.",
+      "type": "anvil"
+    }
+  },
+  "thornsDamage": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Урон шипами",
+      "lore": "Урон, возвращаемый атакующему.",
+      "type": "cactus"
+    }
+  },
+  "maxHp": {
+    "type": "attribute",
+    "attribute_id": "generic.max_health",
+    "base_value": 20,
+    "display_item": {
+      "name": "Максимальное HP",
+      "lore": "Сколько урона способно выдержать тело.",
+      "type": "red_dye"
+    }
+  },
+  "hpRegen": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Регенерация HP",
+      "lore": "Сколько здоровья восстанавливается за секунду.",
+      "type": "glow_berries"
+    }
+  },
+  "armor": {
+    "type": "attribute",
+    "attribute_id": "generic.armor",
+    "base_value": 0,
+    "display_item": {
+      "name": "Броня",
+      "lore": "Сопротивление получаемому урону.",
+      "type": "iron_chestplate"
+    }
+  },
+  "moveSpeed": {
+    "type": "attribute",
+    "attribute_id": "generic.movement_speed",
+    "base_value": 100,
+    "display_item": {
+      "name": "Скорость передвижения",
+      "lore": "Насколько быстро двигается существо.",
+      "type": "feather"
+    }
+  },
+  "stamina": {
+    "type": "manual",
+    "base_value": 100,
+    "display_item": {
+      "name": "Выносливость",
+      "lore": "Запас сил для рывков и активных действий.",
+      "type": "rabbit_foot"
+    }
+  },
+  "staminaRegen": {
+    "type": "manual",
+    "base_value": 1,
+    "display_item": {
+      "name": "Регенерация выносливости",
+      "lore": "Сколько выносливости восстанавливается за секунду.",
+      "type": "sugar"
+    }
+  },
+  "mpGain": {
+    "type": "manual",
+    "base_value": 100,
+    "display_item": {
+      "name": "Получение очков мутации",
+      "lore": "Насколько эффективно существо получает очки мутации.",
+      "type": "brown_mushroom"
+    }
+  },
+  "tailAttackDamage": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Урон хвостом",
+      "lore": "Сила удара хвостом.",
+      "type": "bone"
+    }
+  },
+  "tailAttackSpeed": {
+    "type": "manual",
+    "base_value": 100,
+    "display_item": {
+      "name": "Скорость удара хвостом",
+      "lore": "Насколько быстро хвост наносит удар.",
+      "type": "string"
+    }
+  },
+  "bleedDamage": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Урон кровотечения",
+      "lore": "Дополнительный урон от рваных ран.",
+      "type": "redstone"
+    }
+  },
+  "swimSpeed": {
+    "type": "manual",
+    "base_value": 100,
+    "display_item": {
+      "name": "Скорость плавания",
+      "lore": "Насколько быстро существо плывёт.",
+      "type": "tropical_fish"
+    }
+  },
+  "digSpeed": {
+    "type": "manual",
+    "base_value": 100,
+    "display_item": {
+      "name": "Скорость копания",
+      "lore": "Насколько быстро существо роет землю.",
+      "type": "iron_shovel"
+    }
+  },
+  "climbSpeed": {
+    "type": "manual",
+    "base_value": 100,
+    "display_item": {
+      "name": "Скорость лазания",
+      "lore": "Насколько быстро существо карабкается по поверхностям.",
+      "type": "vine"
+    }
+  },
+  "evasion": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Уклонение",
+      "lore": "Шанс избежать входящего удара.",
+      "type": "feather"
+    }
+  },
+  "fallDamageReduction": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Снижение урона от падения",
+      "lore": "Насколько меньше урона наносит падение.",
+      "type": "slime_ball"
+    }
+  },
+  "counterDamage": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Контрудар",
+      "lore": "Урон, наносимый в ответ при уклонении.",
+      "type": "poisonous_potato"
+    }
+  },
+  "critChance": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Шанс крита",
+      "lore": "Вероятность нанесения критического удара.",
+      "type": "glow_ink_sac"
+    }
+  }
+}

@@ -1,5 +1,10 @@
 {
-    "links": {
-        
-    }
+    "url": "https://raw.githubusercontent.com/bedspi6/justmc-evolution/refs/heads/main/data/",
+    "files": [
+        "custom_items.json",
+        "characteristics.json",
+        "body_parts.json",
+        "branches.json",
+        "mutations.json"
+    ]
 }

@@ -3,7 +3,7 @@
     "body_part_id": "head",
     "display_item": {
       "name": "Хищник",
-      "lore": "Путь укуса, яда и агрессивной охоты.",
+      "lore": "<gray>Путь укуса, яда и агрессивной охоты.",
       "type": "iron_sword"
     }
   },
@@ -11,7 +11,7 @@
     "body_part_id": "head",
     "display_item": {
       "name": "Собиратель",
-      "lore": "Путь чутья, поиска ресурсов и восприятия.",
+      "lore": "<gray>Путь чутья, поиска ресурсов и восприятия.",
       "type": "spyglass"
     }
   },
@@ -19,16 +19,15 @@
     "body_part_id": "head",
     "display_item": {
       "name": "Защитник",
-      "lore": "Путь панциря и отражённого урона.",
+      "lore": "<gray>Путь панциря и отражённого урона.",
       "type": "shield"
     }
   },
-
   "tank": {
     "body_part_id": "torso",
     "display_item": {
       "name": "Танк",
-      "lore": "Путь прочности, живучести и регенерации.",
+      "lore": "<gray>Путь прочности, живучести и регенерации.",
       "type": "iron_chestplate"
     }
   },
@@ -36,7 +35,7 @@
     "body_part_id": "torso",
     "display_item": {
       "name": "Ловкость",
-      "lore": "Путь скорости, выносливости и рывков.",
+      "lore": "<gray>Путь скорости, выносливости и рывков.",
       "type": "rabbit_foot"
     }
   },
@@ -44,16 +43,15 @@
     "body_part_id": "torso",
     "display_item": {
       "name": "Симбиоз",
-      "lore": "Путь роста, спор и усиленного сбора ресурсов.",
+      "lore": "<gray>Путь роста, спор и усиленного сбора ресурсов.",
       "type": "brown_mushroom"
     }
   },
-
   "assault": {
     "body_part_id": "tail",
     "display_item": {
       "name": "Штурм",
-      "lore": "Путь хвоста как оружия.",
+      "lore": "<gray>Путь хвоста как оружия.",
       "type": "bone"
     }
   },
@@ -61,7 +59,7 @@
     "body_part_id": "tail",
     "display_item": {
       "name": "Мобильность",
-      "lore": "Путь плавания, копания и лазания.",
+      "lore": "<gray>Путь плавания, копания и лазания.",
       "type": "vine"
     }
   },
@@ -69,7 +67,7 @@
     "body_part_id": "tail",
     "display_item": {
       "name": "Утилити",
-      "lore": "Путь равновесия, уклонения и контратак.",
+      "lore": "<gray>Путь равновесия, уклонения и контратак.",
       "type": "feather"
     }
   }

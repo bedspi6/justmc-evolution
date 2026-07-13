@@ -1,6 +1,7 @@
 {
     "url": "https://raw.githubusercontent.com/bedspi6/justmc-evolution/refs/heads/main/data/",
     "files": [
+        "icons.json",
         "custom_items.json",
         "characteristics.json",
         "body_parts.json",

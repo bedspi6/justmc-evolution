@@ -99,7 +99,7 @@
   "moveSpeed": {
     "type": "attribute",
     "attribute_id": "generic_movement_speed",
-    "base_value": 20,
+    "base_value": 0.05,
     "display_item": {
       "name": "Скорость передвижения",
       "lore": "<gray>Насколько быстро двигается существо.",
@@ -109,7 +109,7 @@
   "jumpPower": {
     "type": "attribute",
     "attribute_id": "generic_jump_strength",
-    "base_value": 20,
+    "base_value": 0.2,
     "display_item": {
       "name": "Сила прыжка",
       "lore": "<gray>Насколько высоко существо может прыгнуть.",

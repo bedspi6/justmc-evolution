@@ -1,0 +1,37 @@
+{
+    "bite": {
+      "display_item": {
+        "name": "Укус",
+        "lore": "<gray>Атака челюстью. Урон и скорость растут с мутациями.",
+        "type": "iron_sword"
+      }
+    },
+    "split": {
+      "display_item": {
+        "name": "Плевок",
+        "lore": "<gray>Дальняя атака ядовитым плевком.",
+        "type": "spider_eye"
+      }
+    },
+    "scan": {
+      "display_item": {
+        "name": "Сканирование",
+        "lore": "<gray>Обнаруживает ресурсы и мобов в радиусе.",
+        "type": "spyglass"
+      }
+    },
+    "dig": {
+      "display_item": {
+        "name": "Копание",
+        "lore": "<gray>Роет землю. Скорость растёт с мутациями.",
+        "type": "iron_shovel"
+      }
+    },
+    "tailAttack": {
+      "display_item": {
+        "name": "Удар хвостом",
+        "lore": "<gray>Атака хвостом. Урон и скорость растут с мутациями.",
+        "type": "bone"
+      }
+    }
+}

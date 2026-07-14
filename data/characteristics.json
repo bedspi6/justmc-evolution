@@ -1,6 +1,7 @@
 {
   "biteDamage": {
-    "type": "manual",
+    "type": "ability",
+    "ability_id": "bite",
     "base_value": 1,
     "display_item": {
       "name": "Урон укуса",
@@ -9,7 +10,8 @@
     }
   },
   "attackSpeed": {
-    "type": "manual",
+    "type": "ability",
+    "ability_id": "bite",
     "base_value": 100,
     "display_item": {
       "name": "Скорость атаки",
@@ -18,7 +20,8 @@
     }
   },
   "rangedDamage": {
-    "type": "manual",
+    "type": "ability",
+    "ability_id": "split",
     "base_value": 0,
     "display_item": {
       "name": "Дальний урон",
@@ -27,7 +30,8 @@
     }
   },
   "detectionRadius": {
-    "type": "manual",
+    "type": "ability",
+    "ability_id": "scan",
     "base_value": 0,
     "display_item": {
       "name": "Радиус обнаружения",
@@ -130,7 +134,8 @@
     }
   },
   "tailAttackDamage": {
-    "type": "manual",
+    "type": "ability",
+    "ability_id": "tailAttack",
     "base_value": 0,
     "display_item": {
       "name": "Урон хвостом",
@@ -139,7 +144,8 @@
     }
   },
   "tailAttackSpeed": {
-    "type": "manual",
+    "type": "ability",
+    "ability_id": "tailAttack",
     "base_value": 100,
     "display_item": {
       "name": "Скорость удара хвостом",
@@ -148,7 +154,8 @@
     }
   },
   "bleedDamage": {
-    "type": "manual",
+    "type": "ability",
+    "ability_id": "bite",
     "base_value": 0,
     "display_item": {
       "name": "Урон кровотечения",
@@ -166,7 +173,8 @@
     }
   },
   "digSpeed": {
-    "type": "manual",
+    "type": "ability",
+    "ability_id": "dig",
     "base_value": 100,
     "display_item": {
       "name": "Скорость копания",

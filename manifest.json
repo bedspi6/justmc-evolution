@@ -3,6 +3,7 @@
     "files": [
         "icons.json",
         "custom_items.json",
+        "abilities.json",
         "characteristics.json",
         "body_parts.json",
         "branches.json",

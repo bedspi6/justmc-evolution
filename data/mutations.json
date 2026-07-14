@@ -30,6 +30,12 @@
           "stat": "biteDamage",
           "value": 3
         }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "bite"
+        }
       }
     ]
   },
@@ -76,6 +82,12 @@
         "data": {
           "stat": "attackSpeed",
           "value": 10
+        }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "bite"
         }
       }
     ]
@@ -130,6 +142,18 @@
           "stat": "rangedDamage",
           "value": 6
         }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "bite"
+        }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "split"
+        }
       }
     ]
   },
@@ -170,6 +194,12 @@
         "data": {
           "stat": "harvestYield",
           "value": 1
+        }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "scan"
         }
       }
     ]
@@ -217,6 +247,12 @@
         "data": {
           "stat": "harvestYield",
           "value": 1
+        }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "scan"
         }
       }
     ]
@@ -270,6 +306,12 @@
         "data": {
           "stat": "harvestYield",
           "value": 2
+        }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "scan"
         }
       }
     ]
@@ -851,6 +893,12 @@
           "stat": "tailAttackDamage",
           "value": 3
         }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "tailAttack"
+        }
       }
     ]
   },
@@ -898,6 +946,12 @@
           "stat": "tailAttackSpeed",
           "value": 10
         }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "tailAttack"
+        }
       }
     ]
   },
@@ -944,6 +998,18 @@
         "data": {
           "stat": "bleedDamage",
           "value": 2
+        }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "tailAttack"
+        }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "bite"
         }
       }
     ]
@@ -1032,6 +1098,12 @@
         "data": {
           "stat": "moveSpeed",
           "value": 5
+        }
+      },
+      {
+        "type": "unlock_ability",
+        "data": {
+          "ability_id": "dig"
         }
       }
     ]

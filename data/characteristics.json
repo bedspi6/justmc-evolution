@@ -50,7 +50,7 @@
   },
   "knockbackResistance": {
     "type": "attribute",
-    "attribute_id": "generic.knockback_resistance",
+    "attribute_id": "generic_knockback_resistance",
     "base_value": 0,
     "display_item": {
       "name": "Устойчивость к отбрасыванию",
@@ -69,7 +69,7 @@
   },
   "maxHp": {
     "type": "attribute",
-    "attribute_id": "generic.max_health",
+    "attribute_id": "generic_max_health",
     "base_value": 20,
     "display_item": {
       "name": "Максимальное HP",
@@ -88,7 +88,7 @@
   },
   "armor": {
     "type": "attribute",
-    "attribute_id": "generic.armor",
+    "attribute_id": "generic_armor",
     "base_value": 0,
     "display_item": {
       "name": "Броня",
@@ -98,7 +98,7 @@
   },
   "moveSpeed": {
     "type": "attribute",
-    "attribute_id": "generic.movement_speed",
+    "attribute_id": "generic_movement_speed",
     "base_value": 100,
     "display_item": {
       "name": "Скорость передвижения",

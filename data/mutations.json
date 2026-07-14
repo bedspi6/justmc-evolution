@@ -1,8 +1,6 @@
 {
   "head_predator_1": {
-    "body_part_id": "head",
     "branch_id": "predator",
-    "tier": 1,
     "display_item": {
       "name": "Клыки",
       "lore": "<gray>Челюсть удлиняется, зубы становятся острее и многочисленнее.",
@@ -40,9 +38,7 @@
     ]
   },
   "head_predator_2": {
-    "body_part_id": "head",
     "branch_id": "predator",
-    "tier": 2,
     "display_item": {
       "name": "Ядовитые железы",
       "lore": "<gray>За челюстью разрастаются железы, вырабатывающие яд.",
@@ -93,9 +89,7 @@
     ]
   },
   "head_predator_3": {
-    "body_part_id": "head",
     "branch_id": "predator",
-    "tier": 3,
     "display_item": {
       "name": "Нейротоксичный плевок",
       "lore": "<gray>Новый мешок питает рот парализующим токсином.",
@@ -158,9 +152,7 @@
     ]
   },
   "head_scavenger_1": {
-    "body_part_id": "head",
     "branch_id": "scavenger",
-    "tier": 1,
     "display_item": {
       "name": "Острое обоняние",
       "lore": "<gray>Нюх обостряется, позволяя чуять ресурсы издалека.",
@@ -205,9 +197,7 @@
     ]
   },
   "head_scavenger_2": {
-    "body_part_id": "head",
     "branch_id": "scavenger",
-    "tier": 2,
     "display_item": {
       "name": "Радар ресурсов",
       "lore": "<gray>Мозг учится улавливать залежи ресурсов на большом расстоянии.",
@@ -258,9 +248,7 @@
     ]
   },
   "head_scavenger_3": {
-    "body_part_id": "head",
     "branch_id": "scavenger",
-    "tier": 3,
     "display_item": {
       "name": "Эхо-чутьё",
       "lore": "<gray>Существо начинает чувствовать сквозь стены и толщу земли.",
@@ -317,9 +305,7 @@
     ]
   },
   "head_defensive_1": {
-    "body_part_id": "head",
     "branch_id": "defensive",
-    "tier": 1,
     "display_item": {
       "name": "Костяные пластины",
       "lore": "<gray>Череп покрывается наростами, смягчающими удары.",
@@ -358,9 +344,7 @@
     ]
   },
   "head_defensive_2": {
-    "body_part_id": "head",
     "branch_id": "defensive",
-    "tier": 2,
     "display_item": {
       "name": "Панцирный купол",
       "lore": "<gray>На голове формируется твёрдый купол, укрывающий существо.",
@@ -405,9 +389,7 @@
     ]
   },
   "head_defensive_3": {
-    "body_part_id": "head",
     "branch_id": "defensive",
-    "tier": 3,
     "display_item": {
       "name": "Отражающие шипы",
       "lore": "<gray>Купол покрывается шипами, раня тех, кто атакует существо.",
@@ -458,9 +440,7 @@
     ]
   },
   "torso_tank_1": {
-    "body_part_id": "torso",
     "branch_id": "tank",
-    "tier": 1,
     "display_item": {
       "name": "Хитиновые пластины",
       "lore": "<gray>Панцирь твердеет, покрывая тело защитным слоем.",
@@ -499,9 +479,7 @@
     ]
   },
   "torso_tank_2": {
-    "body_part_id": "torso",
     "branch_id": "tank",
-    "tier": 2,
     "display_item": {
       "name": "Плотная шкура",
       "lore": "<gray>Кожа утолщается, поглощая большую часть ударов.",
@@ -546,9 +524,7 @@
     ]
   },
   "torso_tank_3": {
-    "body_part_id": "torso",
     "branch_id": "tank",
-    "tier": 3,
     "display_item": {
       "name": "Регенеративное ядро",
       "lore": "<gray>Внутри тела формируется орган, ускоряющий восстановление.",
@@ -593,9 +569,7 @@
     ]
   },
   "torso_agile_1": {
-    "body_part_id": "torso",
     "branch_id": "agile",
-    "tier": 1,
     "display_item": {
       "name": "Лёгкий каркас",
       "lore": "<gray>Кости становятся легче, тело — подвижнее.",
@@ -634,9 +608,7 @@
     ]
   },
   "torso_agile_2": {
-    "body_part_id": "torso",
     "branch_id": "agile",
-    "tier": 2,
     "display_item": {
       "name": "Мышцы спринтера",
       "lore": "<gray>Мышечные волокна перестраиваются для взрывной скорости.",
@@ -681,9 +653,7 @@
     ]
   },
   "torso_agile_3": {
-    "body_part_id": "torso",
     "branch_id": "agile",
-    "tier": 3,
     "display_item": {
       "name": "Всплеск адреналина",
       "lore": "<gray>Железы выбрасывают в кровь вещество, дающее краткий предел скорости.",
@@ -728,9 +698,7 @@
     ]
   },
   "torso_symbiotic_1": {
-    "body_part_id": "torso",
     "branch_id": "symbiotic",
-    "tier": 1,
     "display_item": {
       "name": "Споровые мешки",
       "lore": "<gray>На теле появляются мешки со спорами, ускоряющие мутацию.",
@@ -769,9 +737,7 @@
     ]
   },
   "torso_symbiotic_2": {
-    "body_part_id": "torso",
     "branch_id": "symbiotic",
-    "tier": 2,
     "display_item": {
       "name": "Фотосинтетическая кожа",
       "lore": "<gray>Кожа приобретает зелёный оттенок и накапливает энергию света.",
@@ -816,9 +782,7 @@
     ]
   },
   "torso_symbiotic_3": {
-    "body_part_id": "torso",
     "branch_id": "symbiotic",
-    "tier": 3,
     "display_item": {
       "name": "Носитель-паразит",
       "lore": "<gray>Существо срастается с симбионтом, усиливающим сбор ресурсов.",
@@ -863,9 +827,7 @@
     ]
   },
   "tail_assault_1": {
-    "body_part_id": "tail",
     "branch_id": "assault",
-    "tier": 1,
     "display_item": {
       "name": "Шипастый хвост",
       "lore": "<gray>Хвост покрывается острыми шипами, становясь оружием.",
@@ -903,9 +865,7 @@
     ]
   },
   "tail_assault_2": {
-    "body_part_id": "tail",
     "branch_id": "assault",
-    "tier": 2,
     "display_item": {
       "name": "Хлёсткий удар",
       "lore": "<gray>Мышцы хвоста укрепляются, позволяя бить быстрее и резче.",
@@ -956,9 +916,7 @@
     ]
   },
   "tail_assault_3": {
-    "body_part_id": "tail",
     "branch_id": "assault",
-    "tier": 3,
     "display_item": {
       "name": "Ядовитое жало",
       "lore": "<gray>На конце хвоста вырастает жало, оставляющее кровоточащие раны.",
@@ -1015,9 +973,7 @@
     ]
   },
   "tail_mobility_1": {
-    "body_part_id": "tail",
     "branch_id": "mobility",
-    "tier": 1,
     "display_item": {
       "name": "Плавник",
       "lore": "<gray>Хвост уплощается, образуя плавник для быстрого плавания.",
@@ -1056,9 +1012,7 @@
     ]
   },
   "tail_mobility_2": {
-    "body_part_id": "tail",
     "branch_id": "mobility",
-    "tier": 2,
     "display_item": {
       "name": "Роющий коготь",
       "lore": "<gray>У основания хвоста вырастают когти, приспособленные для рытья.",
@@ -1109,9 +1063,7 @@
     ]
   },
   "tail_mobility_3": {
-    "body_part_id": "tail",
     "branch_id": "mobility",
-    "tier": 3,
     "display_item": {
       "name": "Цепкий хвост",
       "lore": "<gray>Хвост становится цепким, позволяя карабкаться по любым поверхностям.",
@@ -1156,9 +1108,7 @@
     ]
   },
   "tail_utility_1": {
-    "body_part_id": "tail",
     "branch_id": "utility",
-    "tier": 1,
     "display_item": {
       "name": "Баланс",
       "lore": "<gray>Хвост помогает удерживать равновесие в любой ситуации.",
@@ -1197,9 +1147,7 @@
     ]
   },
   "tail_utility_2": {
-    "body_part_id": "tail",
     "branch_id": "utility",
-    "tier": 2,
     "display_item": {
       "name": "Жалящий контрудар",
       "lore": "<gray>При уклонении хвост бьёт в ответ мгновенным жалом.",
@@ -1244,9 +1192,7 @@
     ]
   },
   "tail_utility_3": {
-    "body_part_id": "tail",
     "branch_id": "utility",
-    "tier": 3,
     "display_item": {
       "name": "Биолюминесцентная приманка",
       "lore": "<gray>На кончике хвоста загорается свечение, отвлекающее врагов.",

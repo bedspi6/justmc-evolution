@@ -187,5 +187,29 @@
       "lore": "<gray>Добывается с: Светящийся приманщик. Питает путь Утилити.",
       "type": "glow_ink_sac"
     }
+  },
+  "wheat_ration": {
+    "item": {
+      "name": "Пшеничный паёк",
+      "lore": "<gray>Простая еда, утоляющая голод в дороге.",
+      "type": "wheat"
+    },
+    "actions": {
+      "eat": {
+        "saturation": 2
+      }
+    }
+  },
+  "berry_cluster": {
+    "item": {
+      "name": "Гроздь ягод",
+      "lore": "<gray>Сладкие лесные ягоды, дающие немного сил.",
+      "type": "sweet_berries"
+    },
+    "actions": {
+      "eat": {
+        "saturation": 3
+      }
+    }
   }
 }

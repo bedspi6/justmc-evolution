@@ -1,17 +1,17 @@
 {
     "eat": {
         "type": "inv_f",
-        "action_desc": "Сьесть еду.",
+        "action_desc": "Сьесть",
         "func": "eat"
     },
     "hold": {
         "type": "inv_f",
-        "action_desc": "Держать предмет в руке.",
+        "action_desc": "Держать предмет",
         "func": "hold"
     },
     "wear": {
         "type": "inv_f",
-        "action_desc": "Надеть броню.",
+        "action_desc": "Надеть броню",
         "func": "wear"
     }
 }

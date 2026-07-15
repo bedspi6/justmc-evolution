@@ -219,7 +219,10 @@
       "type": "wooden_pickaxe"
     },
     "actions": {
-      "hold": {}
+      "hold": {},
+      "mining": {
+        "efficiency": 1
+      }
     }
   },
   "wooden_axe": {
@@ -229,7 +232,10 @@
       "type": "wooden_axe"
     },
     "actions": {
-      "hold": {}
+      "hold": {},
+      "chop": {
+        "efficiency": 1
+      }
     }
   },
   "wooden_sword": {
@@ -249,7 +255,10 @@
       "type": "stone_pickaxe"
     },
     "actions": {
-      "hold": {}
+      "hold": {},
+      "mining": {
+        "efficiency": 2
+      }
     }
   },
   "stone_axe": {
@@ -259,7 +268,10 @@
       "type": "stone_axe"
     },
     "actions": {
-      "hold": {}
+      "hold": {},
+      "chop": {
+        "efficiency": 2
+      }
     }
   },
   "stone_sword": {
@@ -279,7 +291,10 @@
       "type": "iron_pickaxe"
     },
     "actions": {
-      "hold": {}
+      "hold": {},
+      "mining": {
+        "efficiency": 3
+      }
     }
   },
   "iron_axe": {
@@ -289,7 +304,10 @@
       "type": "iron_axe"
     },
     "actions": {
-      "hold": {}
+      "hold": {},
+      "chop": {
+        "efficiency": 3
+      }
     }
   },
   "iron_sword": {

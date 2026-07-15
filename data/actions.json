@@ -13,5 +13,15 @@
         "type": "inv_f",
         "action_desc": "Надеть броню",
         "func": "wear"
+    },
+    "mining": {
+        "type": "left_click",
+        "action_desc": "Добывать руду",
+        "func": "mining"
+    },
+    "chop": {
+        "type": "left_click",
+        "action_desc": "Рубить дерево",
+        "func": "chop"
     }
 }

@@ -37,5 +37,14 @@
   "redstone": "<sprite:items:item/redstone>",
   "echo_shard": "<sprite:items:item/echo_shard>",
   "rabbit_hide": "<sprite:items:item/rabbit_hide>",
-  "shield": "<sprite:items:item/shield>"
+  "shield": "<sprite:items:item/shield>",
+  "beef": "<sprite:items:item/beef>",
+  "honey_bottle": "<sprite:items:item/honey_bottle>",
+  "phantom_membrane": "<sprite:items:item/phantom_membrane>",
+  "red_mushroom": "<sprite:blocks:block/red_mushroom>",
+  "mycelium": "<sprite:blocks:block/mycelium_top>",
+  "dirt": "<sprite:blocks:block/dirt>",
+  "prismarine_shard": "<sprite:items:item/prismarine_shard>",
+  "gunpowder": "<sprite:items:item/gunpowder>",
+  "bone_meal": "<sprite:items:item/bone_meal>"
 }

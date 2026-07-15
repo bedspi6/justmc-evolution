@@ -1,1239 +1,476 @@
 {
-  "head_predator_1": {
+  "serrated_fangs": {
     "branch_id": "predator",
     "display_item": {
-      "name": "Клыки",
-      "lore": "<gray>Челюсть удлиняется, зубы становятся острее и многочисленнее.",
+      "name": "Зазубренные клыки",
+      "lore": "<gray>Зубы становятся длиннее и острее, позволяя наносить более глубокие раны.",
       "type": "bone"
     },
     "requirements": [
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 15
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "fang_shard",
-          "amount": 5
-        }
-      }
+      { "type": "mutation_points", "data": { "amount": 15 } },
+      { "type": "resource", "data": { "item": "bone", "amount": 8 } }
     ],
     "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "biteDamage",
-          "value": 3
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "bite"
-        }
-      }
+      { "type": "stat_flat", "data": { "stat": "biteDamage", "value": 3 } },
+      { "type": "stat_flat", "data": { "stat": "bleedDamage", "value": 1 } },
+      { "type": "unlock_ability", "data": { "ability_id": "bite" } }
     ]
   },
-  "head_predator_2": {
+  "elastic_jaw": {
     "branch_id": "predator",
     "display_item": {
-      "name": "Ядовитые железы",
-      "lore": "<gray>За челюстью разрастаются железы, вырабатывающие яд.",
-      "type": "fermented_spider_eye"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "head_predator_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 35
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "venom_gland",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "biteDamage",
-          "value": 2
-        }
-      },
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "attackSpeed",
-          "value": 10
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "bite"
-        }
-      }
-    ]
-  },
-  "head_predator_3": {
-    "branch_id": "predator",
-    "display_item": {
-      "name": "Нейротоксичный плевок",
-      "lore": "<gray>Новый мешок питает рот парализующим токсином.",
-      "type": "dragon_breath"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "head_predator_2"
-        }
-      },
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "torso_symbiotic_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 60
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "neurotoxin_resin",
-          "amount": 8
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "biteDamage",
-          "value": 5
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "rangedDamage",
-          "value": 6
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "bite"
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "split"
-        }
-      }
-    ]
-  },
-  "head_scavenger_1": {
-    "branch_id": "scavenger",
-    "display_item": {
-      "name": "Острое обоняние",
-      "lore": "<gray>Нюх обостряется, позволяя чуять ресурсы издалека.",
-      "type": "spyglass"
-    },
-    "requirements": [
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 15
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "keen_whisker",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "detectionRadius",
-          "value": 10
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "harvestYield",
-          "value": 1
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "scan"
-        }
-      }
-    ]
-  },
-  "head_scavenger_2": {
-    "branch_id": "scavenger",
-    "display_item": {
-      "name": "Радар ресурсов",
-      "lore": "<gray>Мозг учится улавливать залежи ресурсов на большом расстоянии.",
-      "type": "amethyst_shard"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "head_scavenger_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 35
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "resonant_crystal",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "detectionRadius",
-          "value": 20
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "harvestYield",
-          "value": 1
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "scan"
-        }
-      }
-    ]
-  },
-  "head_scavenger_3": {
-    "branch_id": "scavenger",
-    "display_item": {
-      "name": "Эхо-чутьё",
-      "lore": "<gray>Существо начинает чувствовать сквозь стены и толщу земли.",
-      "type": "sculk_sensor"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "head_scavenger_2"
-        }
-      },
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "tail_mobility_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 60
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "echo_membrane",
-          "amount": 3
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "detectionRadius",
-          "value": 30
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "harvestYield",
-          "value": 2
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "scan"
-        }
-      }
-    ]
-  },
-  "head_defensive_1": {
-    "branch_id": "defensive",
-    "display_item": {
-      "name": "Костяные пластины",
-      "lore": "<gray>Череп покрывается наростами, смягчающими удары.",
-      "type": "bone_block"
-    },
-    "requirements": [
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 15
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "chitin_shard",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "armor",
-          "value": 2
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "knockbackResistance",
-          "value": 1
-        }
-      }
-    ]
-  },
-  "head_defensive_2": {
-    "branch_id": "defensive",
-    "display_item": {
-      "name": "Панцирный купол",
-      "lore": "<gray>На голове формируется твёрдый купол, укрывающий существо.",
-      "type": "turtle_helmet"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "head_defensive_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 35
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "bone_plate",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "armor",
-          "value": 3
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "knockbackResistance",
-          "value": 1
-        }
-      }
-    ]
-  },
-  "head_defensive_3": {
-    "branch_id": "defensive",
-    "display_item": {
-      "name": "Отражающие шипы",
-      "lore": "<gray>Купол покрывается шипами, раня тех, кто атакует существо.",
-      "type": "netherite_scrap"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "head_defensive_2"
-        }
-      },
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "torso_tank_2"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 60
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "hardened_spike",
-          "amount": 3
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "armor",
-          "value": 4
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "thornsDamage",
-          "value": 3
-        }
-      }
-    ]
-  },
-  "torso_tank_1": {
-    "branch_id": "tank",
-    "display_item": {
-      "name": "Хитиновые пластины",
-      "lore": "<gray>Панцирь твердеет, покрывая тело защитным слоем.",
-      "type": "turtle_scute"
-    },
-    "requirements": [
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 15
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "thick_hide_scrap",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "maxHp",
-          "value": 10
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "armor",
-          "value": 2
-        }
-      }
-    ]
-  },
-  "torso_tank_2": {
-    "branch_id": "tank",
-    "display_item": {
-      "name": "Плотная шкура",
-      "lore": "<gray>Кожа утолщается, поглощая большую часть ударов.",
-      "type": "leather"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "torso_tank_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 35
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "leathery_callus",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "maxHp",
-          "value": 15
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "armor",
-          "value": 3
-        }
-      }
-    ]
-  },
-  "torso_tank_3": {
-    "branch_id": "tank",
-    "display_item": {
-      "name": "Регенеративное ядро",
-      "lore": "<gray>Внутри тела формируется орган, ускоряющий восстановление.",
-      "type": "glow_berries"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "torso_tank_2"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 60
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "regenerative_tissue",
-          "amount": 3
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "maxHp",
-          "value": 20
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "hpRegen",
-          "value": 1
-        }
-      }
-    ]
-  },
-  "torso_agile_1": {
-    "branch_id": "agile",
-    "display_item": {
-      "name": "Лёгкий каркас",
-      "lore": "<gray>Кости становятся легче, тело — подвижнее.",
-      "type": "feather"
-    },
-    "requirements": [
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 15
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "light_bone",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "moveSpeed",
-          "value": 10
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "stamina",
-          "value": 10
-        }
-      }
-    ]
-  },
-  "torso_agile_2": {
-    "branch_id": "agile",
-    "display_item": {
-      "name": "Мышцы спринтера",
-      "lore": "<gray>Мышечные волокна перестраиваются для взрывной скорости.",
-      "type": "rabbit_foot"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "torso_agile_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 35
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "swift_tendon",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "moveSpeed",
-          "value": 10
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "stamina",
-          "value": 15
-        }
-      }
-    ]
-  },
-  "torso_agile_3": {
-    "branch_id": "agile",
-    "display_item": {
-      "name": "Всплеск адреналина",
-      "lore": "<gray>Железы выбрасывают в кровь вещество, дающее краткий предел скорости.",
-      "type": "sugar"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "torso_agile_2"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 60
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "adrenal_gland",
-          "amount": 3
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "moveSpeed",
-          "value": 15
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "staminaRegen",
-          "value": 2
-        }
-      }
-    ]
-  },
-  "torso_symbiotic_1": {
-    "branch_id": "symbiotic",
-    "display_item": {
-      "name": "Споровые мешки",
-      "lore": "<gray>На теле появляются мешки со спорами, ускоряющие мутацию.",
-      "type": "brown_mushroom"
-    },
-    "requirements": [
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 15
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "living_spore",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "mpGain",
-          "value": 10
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "harvestYield",
-          "value": 1
-        }
-      }
-    ]
-  },
-  "torso_symbiotic_2": {
-    "branch_id": "symbiotic",
-    "display_item": {
-      "name": "Фотосинтетическая кожа",
-      "lore": "<gray>Кожа приобретает зелёный оттенок и накапливает энергию света.",
-      "type": "glow_lichen"
-    },
-    "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "torso_symbiotic_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 35
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "glowing_lichen",
-          "amount": 5
-        }
-      }
-    ],
-    "rewards": [
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "mpGain",
-          "value": 10
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "hpRegen",
-          "value": 1
-        }
-      }
-    ]
-  },
-  "torso_symbiotic_3": {
-    "branch_id": "symbiotic",
-    "display_item": {
-      "name": "Носитель-паразит",
-      "lore": "<gray>Существо срастается с симбионтом, усиливающим сбор ресурсов.",
+      "name": "Эластичная челюсть",
+      "lore": "<gray>Связки челюсти растягиваются, позволяя кусать быстрее и шире.",
       "type": "slime_ball"
     },
     "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "torso_symbiotic_2"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 60
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "symbiotic_core",
-          "amount": 3
-        }
-      }
+      { "type": "node_unlocked", "data": { "nodeId": "serrated_fangs" } },
+      { "type": "mutation_points", "data": { "amount": 25 } },
+      { "type": "resource", "data": { "item": "slime_ball", "amount": 6 } }
     ],
     "rewards": [
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "mpGain",
-          "value": 15
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "harvestYield",
-          "value": 2
-        }
-      }
+      { "type": "stat_percent", "data": { "stat": "biteSpeed", "value": 12 } },
+      { "type": "stat_flat", "data": { "stat": "biteDamage", "value": 1 } }
     ]
   },
-  "tail_assault_1": {
-    "branch_id": "assault",
+  "venom_glands": {
+    "branch_id": "predator",
     "display_item": {
-      "name": "Шипастый хвост",
-      "lore": "<gray>Хвост покрывается острыми шипами, становясь оружием.",
-      "type": "bone"
+      "name": "Ядовитые железы",
+      "lore": "<gray>За челюстью разрастаются железы, вырабатывающие едкий яд для дальних плевков.",
+      "type": "fermented_spider_eye"
     },
     "requirements": [
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 15
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "tail_spike",
-          "amount": 5
-        }
-      }
+      { "type": "node_unlocked", "data": { "nodeId": "elastic_jaw" } },
+      { "type": "mutation_points", "data": { "amount": 35 } },
+      { "type": "resource", "data": { "item": "spider_eye", "amount": 6 } }
     ],
     "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "tailAttackDamage",
-          "value": 3
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "tailAttack"
-        }
-      }
+      { "type": "stat_flat", "data": { "stat": "rangedDamage", "value": 4 } },
+      { "type": "stat_flat", "data": { "stat": "bleedDamage", "value": 1 } },
+      { "type": "unlock_ability", "data": { "ability_id": "split" } }
     ]
   },
-  "tail_assault_2": {
-    "branch_id": "assault",
+  "keen_smell": {
+    "branch_id": "scavenger",
     "display_item": {
-      "name": "Хлёсткий удар",
-      "lore": "<gray>Мышцы хвоста укрепляются, позволяя бить быстрее и резче.",
+      "name": "Острое чутьё",
+      "lore": "<gray>Обоняние обостряется, позволяя чувствовать ресурсы на большем расстоянии.",
+      "type": "spyglass"
+    },
+    "requirements": [
+      { "type": "mutation_points", "data": { "amount": 15 } },
+      { "type": "resource", "data": { "item": "rotten_flesh", "amount": 8 } }
+    ],
+    "rewards": [
+      { "type": "stat_flat", "data": { "stat": "detectionRadius", "value": 5 } },
+      { "type": "stat_percent", "data": { "stat": "harvestYield", "value": 5 } },
+      { "type": "unlock_ability", "data": { "ability_id": "scan" } }
+    ]
+  },
+  "efficient_digestion": {
+    "branch_id": "scavenger",
+    "display_item": {
+      "name": "Эффективное пищеварение",
+      "lore": "<gray>Организм извлекает больше пользы из добытых ресурсов.",
+      "type": "rotten_flesh"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "keen_smell" } },
+      { "type": "mutation_points", "data": { "amount": 25 } },
+      { "type": "resource", "data": { "item": "raw_meat", "amount": 6 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "harvestYield", "value": 15 } },
+      { "type": "stat_flat", "data": { "stat": "mpGain", "value": 1 } }
+    ]
+  },
+  "bone_plating": {
+    "branch_id": "defensive",
+    "display_item": {
+      "name": "Костяная броня",
+      "lore": "<gray>Под кожей формируются костяные пластины, защищающие от ударов.",
+      "type": "iron_chestplate"
+    },
+    "requirements": [
+      { "type": "mutation_points", "data": { "amount": 15 } },
+      { "type": "resource", "data": { "item": "bone", "amount": 8 } }
+    ],
+    "rewards": [
+      { "type": "stat_flat", "data": { "stat": "armor", "value": 4 } },
+      { "type": "stat_percent", "data": { "stat": "knockbackResistance", "value": 5 } }
+    ]
+  },
+  "reinforced_skull": {
+    "branch_id": "defensive",
+    "display_item": {
+      "name": "Укреплённый череп",
+      "lore": "<gray>Кости черепа утолщаются, гася силу встречных ударов.",
+      "type": "turtle_helmet"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "bone_plating" } },
+      { "type": "mutation_points", "data": { "amount": 25 } },
+      { "type": "resource", "data": { "item": "bone_meal", "amount": 6 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "knockbackResistance", "value": 15 } },
+      { "type": "stat_flat", "data": { "stat": "armor", "value": 1 } }
+    ]
+  },
+  "barbed_hide": {
+    "branch_id": "defensive",
+    "display_item": {
+      "name": "Шипастая шкура",
+      "lore": "<gray>Кожа покрывается острыми шипами, ранящими нападающих.",
+      "type": "cactus"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "reinforced_skull" } },
+      { "type": "mutation_points", "data": { "amount": 35 } },
+      { "type": "resource", "data": { "item": "gunpowder", "amount": 5 } }
+    ],
+    "rewards": [
+      { "type": "stat_flat", "data": { "stat": "thornsDamage", "value": 3 } },
+      { "type": "stat_flat", "data": { "stat": "armor", "value": 1 } }
+    ]
+  },
+  "reinforced_organs": {
+    "branch_id": "tank",
+    "display_item": {
+      "name": "Усиленные органы",
+      "lore": "<gray>Внутренние органы становятся крепче, повышая живучесть.",
+      "type": "raw_beef"
+    },
+    "requirements": [
+      { "type": "mutation_points", "data": { "amount": 15 } },
+      { "type": "resource", "data": { "item": "raw_meat", "amount": 8 } }
+    ],
+    "rewards": [
+      { "type": "stat_flat", "data": { "stat": "maxHp", "value": 10 } },
+      { "type": "stat_percent", "data": { "stat": "hpRegen", "value": 5 } }
+    ]
+  },
+  "regenerative_tissue": {
+    "branch_id": "tank",
+    "display_item": {
+      "name": "Регенерирующая ткань",
+      "lore": "<gray>Клетки тела делятся быстрее, ускоряя восстановление ран.",
+      "type": "honey_bottle"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "reinforced_organs" } },
+      { "type": "mutation_points", "data": { "amount": 25 } },
+      { "type": "resource", "data": { "item": "slime_ball", "amount": 6 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "hpRegen", "value": 15 } },
+      { "type": "stat_flat", "data": { "stat": "maxHp", "value": 3 } }
+    ]
+  },
+  "lightweight_frame": {
+    "branch_id": "agile",
+    "display_item": {
+      "name": "Лёгкий каркас",
+      "lore": "<gray>Кости становятся тоньше и легче, увеличивая скорость передвижения.",
+      "type": "feather"
+    },
+    "requirements": [
+      { "type": "mutation_points", "data": { "amount": 15 } },
+      { "type": "resource", "data": { "item": "feather", "amount": 8 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "moveSpeed", "value": 10 } },
+      { "type": "stat_flat", "data": { "stat": "jumpPower", "value": 1 } }
+    ]
+  },
+  "expanded_lungs": {
+    "branch_id": "agile",
+    "display_item": {
+      "name": "Расширенные лёгкие",
+      "lore": "<gray>Объём лёгких увеличивается, позволяя дольше сохранять выносливость.",
+      "type": "phantom_membrane"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "lightweight_frame" } },
+      { "type": "mutation_points", "data": { "amount": 25 } },
+      { "type": "resource", "data": { "item": "leather", "amount": 6 } }
+    ],
+    "rewards": [
+      { "type": "stat_flat", "data": { "stat": "stamina", "value": 20 } },
+      { "type": "stat_percent", "data": { "stat": "staminaRegen", "value": 5 } }
+    ]
+  },
+  "efficient_breathing": {
+    "branch_id": "agile",
+    "display_item": {
+      "name": "Эффективное дыхание",
+      "lore": "<gray>Дыхательная система работает экономичнее, ускоряя восстановление сил.",
+      "type": "sugar"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "expanded_lungs" } },
+      { "type": "mutation_points", "data": { "amount": 35 } },
+      { "type": "resource", "data": { "item": "raw_meat", "amount": 5 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "staminaRegen", "value": 15 } },
+      { "type": "stat_flat", "data": { "stat": "stamina", "value": 5 } }
+    ]
+  },
+  "elastic_tendons": {
+    "branch_id": "agile",
+    "display_item": {
+      "name": "Эластичные сухожилия",
+      "lore": "<gray>Сухожилия становятся упругими, как пружины, увеличивая высоту прыжка.",
       "type": "string"
     },
     "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "tail_assault_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 35
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "whip_sinew",
-          "amount": 5
-        }
-      }
+      { "type": "node_unlocked", "data": { "nodeId": "efficient_breathing" } },
+      { "type": "mutation_points", "data": { "amount": 45 } },
+      { "type": "resource", "data": { "item": "slime_ball", "amount": 6 } }
     ],
     "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "tailAttackDamage",
-          "value": 3
-        }
-      },
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "tailAttackSpeed",
-          "value": 10
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "tailAttack"
-        }
-      }
+      { "type": "stat_flat", "data": { "stat": "jumpPower", "value": 3 } },
+      { "type": "stat_percent", "data": { "stat": "moveSpeed", "value": 5 } }
     ]
   },
-  "tail_assault_3": {
+  "fungal_network": {
+    "branch_id": "symbiotic",
+    "display_item": {
+      "name": "Грибная сеть",
+      "lore": "<gray>Симбиотические грибы оплетают тело, ускоряя накопление очков мутации.",
+      "type": "brown_mushroom"
+    },
+    "requirements": [
+      { "type": "mutation_points", "data": { "amount": 15 } },
+      { "type": "resource", "data": { "item": "rotten_flesh", "amount": 8 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "mpGain", "value": 10 } },
+      { "type": "stat_percent", "data": { "stat": "harvestYield", "value": 3 } }
+    ]
+  },
+  "nutrient_absorption": {
+    "branch_id": "symbiotic",
+    "display_item": {
+      "name": "Поглощение питательных веществ",
+      "lore": "<gray>Симбионты помогают перерабатывать добычу с большей отдачей.",
+      "type": "red_mushroom"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "fungal_network" } },
+      { "type": "mutation_points", "data": { "amount": 25 } },
+      { "type": "resource", "data": { "item": "raw_meat", "amount": 6 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "harvestYield", "value": 15 } },
+      { "type": "stat_percent", "data": { "stat": "hpRegen", "value": 3 } }
+    ]
+  },
+  "living_colony": {
+    "branch_id": "symbiotic",
+    "display_item": {
+      "name": "Живая колония",
+      "lore": "<gray>Колония симбионтов срастается с телом, непрерывно восстанавливая раны.",
+      "type": "mycelium"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "nutrient_absorption" } },
+      { "type": "mutation_points", "data": { "amount": 35 } },
+      { "type": "resource", "data": { "item": "bone_meal", "amount": 6 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "hpRegen", "value": 12 } },
+      { "type": "stat_flat", "data": { "stat": "mpGain", "value": 1 } }
+    ]
+  },
+  "bone_club": {
     "branch_id": "assault",
     "display_item": {
-      "name": "Ядовитое жало",
-      "lore": "<gray>На конце хвоста вырастает жало, оставляющее кровоточащие раны.",
-      "type": "spider_eye"
+      "name": "Костяная булава",
+      "lore": "<gray>Кончик хвоста утолщается, превращаясь в тяжёлую костяную дубину.",
+      "type": "bone"
     },
     "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "tail_assault_2"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 60
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "venom_barb",
-          "amount": 3
-        }
-      }
+      { "type": "mutation_points", "data": { "amount": 15 } },
+      { "type": "resource", "data": { "item": "bone", "amount": 8 } }
     ],
     "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "tailAttackDamage",
-          "value": 5
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "bleedDamage",
-          "value": 2
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "tailAttack"
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "bite"
-        }
-      }
+      { "type": "stat_flat", "data": { "stat": "tailAttackDamage", "value": 4 } },
+      { "type": "stat_percent", "data": { "stat": "tailAttackSpeed", "value": 5 } },
+      { "type": "unlock_ability", "data": { "ability_id": "tailAttack" } }
     ]
   },
-  "tail_mobility_1": {
+  "whip_tail": {
+    "branch_id": "assault",
+    "display_item": {
+      "name": "Хлёсткий хвост",
+      "lore": "<gray>Хвост становится тоньше и гибче, позволяя наносить удары молниеносно.",
+      "type": "string"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "bone_club" } },
+      { "type": "mutation_points", "data": { "amount": 25 } },
+      { "type": "resource", "data": { "item": "string", "amount": 6 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "tailAttackSpeed", "value": 15 } },
+      { "type": "stat_flat", "data": { "stat": "tailAttackDamage", "value": 1 } },
+      { "type": "unlock_ability", "data": { "ability_id": "bite" } }
+    ]
+  },
+  "barbed_tail": {
+    "branch_id": "assault",
+    "display_item": {
+      "name": "Зазубренный хвост",
+      "lore": "<gray>На хвосте вырастают острые шипы, оставляющие кровоточащие раны.",
+      "type": "cactus"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "whip_tail" } },
+      { "type": "mutation_points", "data": { "amount": 35 } },
+      { "type": "resource", "data": { "item": "spider_eye", "amount": 5 } }
+    ],
+    "rewards": [
+      { "type": "stat_flat", "data": { "stat": "bleedDamage", "value": 3 } },
+      { "type": "stat_flat", "data": { "stat": "tailAttackDamage", "value": 1 } }
+    ]
+  },
+  "stream_fin": {
     "branch_id": "mobility",
     "display_item": {
-      "name": "Плавник",
-      "lore": "<gray>Хвост уплощается, образуя плавник для быстрого плавания.",
-      "type": "tropical_fish"
+      "name": "Плавниковый гребень",
+      "lore": "<gray>Вдоль хвоста вырастает плавник, позволяющий быстрее рассекать воду.",
+      "type": "prismarine_shard"
     },
     "requirements": [
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 15
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "fin_membrane",
-          "amount": 5
-        }
-      }
+      { "type": "mutation_points", "data": { "amount": 15 } },
+      { "type": "resource", "data": { "item": "feather", "amount": 8 } }
     ],
     "rewards": [
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "swimSpeed",
-          "value": 20
-        }
-      },
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "moveSpeed",
-          "value": 5
-        }
-      }
+      { "type": "stat_percent", "data": { "stat": "swimSpeed", "value": 15 } },
+      { "type": "stat_percent", "data": { "stat": "moveSpeed", "value": 3 } }
     ]
   },
-  "tail_mobility_2": {
+  "burrowing_tail": {
     "branch_id": "mobility",
     "display_item": {
-      "name": "Роющий коготь",
-      "lore": "<gray>У основания хвоста вырастают когти, приспособленные для рытья.",
-      "type": "iron_shovel"
+      "name": "Роющий хвост",
+      "lore": "<gray>Хвост укрепляется и заостряется, позволяя прорывать землю на ходу.",
+      "type": "dirt"
     },
     "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "tail_mobility_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 35
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "burrowing_claw",
-          "amount": 5
-        }
-      }
+      { "type": "node_unlocked", "data": { "nodeId": "stream_fin" } },
+      { "type": "mutation_points", "data": { "amount": 25 } },
+      { "type": "resource", "data": { "item": "leather", "amount": 6 } }
     ],
     "rewards": [
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "digSpeed",
-          "value": 20
-        }
-      },
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "moveSpeed",
-          "value": 5
-        }
-      },
-      {
-        "type": "unlock_ability",
-        "data": {
-          "ability_id": "dig"
-        }
-      }
+      { "type": "stat_percent", "data": { "stat": "digSpeed", "value": 15 } },
+      { "type": "stat_percent", "data": { "stat": "moveSpeed", "value": 3 } },
+      { "type": "unlock_ability", "data": { "ability_id": "dig" } }
     ]
   },
-  "tail_mobility_3": {
+  "gripping_tail": {
     "branch_id": "mobility",
     "display_item": {
       "name": "Цепкий хвост",
-      "lore": "<gray>Хвост становится цепким, позволяя карабкаться по любым поверхностям.",
+      "lore": "<gray>Хвост обретает хватательные мышцы, позволяющие уверенно карабкаться.",
       "type": "vine"
     },
     "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "tail_mobility_2"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 60
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "gripping_sucker",
-          "amount": 3
-        }
-      }
+      { "type": "node_unlocked", "data": { "nodeId": "burrowing_tail" } },
+      { "type": "mutation_points", "data": { "amount": 35 } },
+      { "type": "resource", "data": { "item": "string", "amount": 5 } }
     ],
     "rewards": [
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "climbSpeed",
-          "value": 30
-        }
-      },
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "moveSpeed",
-          "value": 10
-        }
-      }
+      { "type": "stat_percent", "data": { "stat": "climbSpeed", "value": 15 } },
+      { "type": "stat_percent", "data": { "stat": "moveSpeed", "value": 3 } }
     ]
   },
-  "tail_utility_1": {
-    "branch_id": "utility",
+  "terrain_adaptation": {
+    "branch_id": "mobility",
     "display_item": {
-      "name": "Баланс",
-      "lore": "<gray>Хвост помогает удерживать равновесие в любой ситуации.",
-      "type": "stick"
+      "name": "Адаптация к местности",
+      "lore": "<gray>Тело приспосабливается ко всем типам ландшафта, ускоряя передвижение везде.",
+      "type": "leather"
     },
     "requirements": [
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 15
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "balance_gland",
-          "amount": 5
-        }
-      }
+      { "type": "node_unlocked", "data": { "nodeId": "gripping_tail" } },
+      { "type": "mutation_points", "data": { "amount": 45 } },
+      { "type": "resource", "data": { "item": "leather", "amount": 6 } }
     ],
     "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "evasion",
-          "value": 3
-        }
-      },
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "fallDamageReduction",
-          "value": 5
-        }
-      }
+      { "type": "stat_percent", "data": { "stat": "moveSpeed", "value": 10 } },
+      { "type": "stat_percent", "data": { "stat": "swimSpeed", "value": 3 } },
+      { "type": "stat_percent", "data": { "stat": "climbSpeed", "value": 3 } }
     ]
   },
-  "tail_utility_2": {
+  "balancing_tail": {
     "branch_id": "utility",
     "display_item": {
-      "name": "Жалящий контрудар",
-      "lore": "<gray>При уклонении хвост бьёт в ответ мгновенным жалом.",
-      "type": "poisonous_potato"
+      "name": "Балансирующий хвост",
+      "lore": "<gray>Хвост помогает удерживать равновесие, уклоняясь от атак.",
+      "type": "feather"
     },
     "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "tail_utility_1"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 35
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "counter_nerve",
-          "amount": 5
-        }
-      }
+      { "type": "mutation_points", "data": { "amount": 15 } },
+      { "type": "resource", "data": { "item": "feather", "amount": 8 } }
     ],
     "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "evasion",
-          "value": 3
-        }
-      },
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "counterDamage",
-          "value": 4
-        }
-      }
+      { "type": "stat_percent", "data": { "stat": "evasion", "value": 8 } },
+      { "type": "stat_percent", "data": { "stat": "fallDamageReduction", "value": 3 } }
     ]
   },
-  "tail_utility_3": {
+  "shock_absorption": {
     "branch_id": "utility",
     "display_item": {
-      "name": "Биолюминесцентная приманка",
-      "lore": "<gray>На кончике хвоста загорается свечение, отвлекающее врагов.",
-      "type": "glow_ink_sac"
+      "name": "Амортизация удара",
+      "lore": "<gray>Суставы и мышцы гасят удар при падении, смягчая приземление.",
+      "type": "slime_ball"
     },
     "requirements": [
-      {
-        "type": "node_unlocked",
-        "data": {
-          "nodeId": "tail_utility_2"
-        }
-      },
-      {
-        "type": "mutation_points",
-        "data": {
-          "amount": 60
-        }
-      },
-      {
-        "type": "resource",
-        "data": {
-          "item": "bioluminescent_gland",
-          "amount": 3
-        }
-      }
+      { "type": "node_unlocked", "data": { "nodeId": "balancing_tail" } },
+      { "type": "mutation_points", "data": { "amount": 25 } },
+      { "type": "resource", "data": { "item": "slime_ball", "amount": 6 } }
     ],
     "rewards": [
-      {
-        "type": "stat_flat",
-        "data": {
-          "stat": "evasion",
-          "value": 4
-        }
-      },
-      {
-        "type": "stat_percent",
-        "data": {
-          "stat": "critChance",
-          "value": 5
-        }
-      }
+      { "type": "stat_percent", "data": { "stat": "fallDamageReduction", "value": 20 } },
+      { "type": "stat_percent", "data": { "stat": "evasion", "value": 3 } }
+    ]
+  },
+  "counter_balance": {
+    "branch_id": "utility",
+    "display_item": {
+      "name": "Контрудар",
+      "lore": "<gray>Рефлексы обостряются, позволяя мгновенно отвечать на атаку противника.",
+      "type": "shield"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "shock_absorption" } },
+      { "type": "mutation_points", "data": { "amount": 35 } },
+      { "type": "resource", "data": { "item": "gunpowder", "amount": 5 } }
+    ],
+    "rewards": [
+      { "type": "stat_flat", "data": { "stat": "counterDamage", "value": 3 } },
+      { "type": "stat_percent", "data": { "stat": "evasion", "value": 3 } }
+    ]
+  },
+  "precision_strike": {
+    "branch_id": "utility",
+    "display_item": {
+      "name": "Точный удар",
+      "lore": "<gray>Инстинкты обостряются настолько, что позволяют находить уязвимые точки противника.",
+      "type": "spyglass"
+    },
+    "requirements": [
+      { "type": "node_unlocked", "data": { "nodeId": "counter_balance" } },
+      { "type": "mutation_points", "data": { "amount": 45 } },
+      { "type": "resource", "data": { "item": "spider_eye", "amount": 6 } }
+    ],
+    "rewards": [
+      { "type": "stat_percent", "data": { "stat": "critChance", "value": 10 } },
+      { "type": "stat_flat", "data": { "stat": "counterDamage", "value": 1 } }
     ]
   }
 }

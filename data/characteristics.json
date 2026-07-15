@@ -9,7 +9,7 @@
       "type": "iron_sword"
     }
   },
-  "attackSpeed": {
+  "biteSpeed": {
     "type": "ability",
     "ability_id": "bite",
     "base_value": 100,
@@ -77,15 +77,6 @@
       "type": "red_dye"
     }
   },
-  "hpRegen": {
-    "type": "manual",
-    "base_value": 0,
-    "display_item": {
-      "name": "Регенерация HP",
-      "lore": "<gray>Сколько здоровья восстанавливается за секунду.",
-      "type": "glow_berries"
-    }
-  },
   "armor": {
     "type": "attribute",
     "attribute_id": "generic_armor",
@@ -114,24 +105,6 @@
       "name": "Сила прыжка",
       "lore": "<gray>Насколько высоко существо может прыгнуть.",
       "type": "slime_ball"
-    }
-  },
-  "stamina": {
-    "type": "manual",
-    "base_value": 100,
-    "display_item": {
-      "name": "Выносливость",
-      "lore": "<gray>Запас сил для рывков и активных действий.",
-      "type": "rabbit_foot"
-    }
-  },
-  "staminaRegen": {
-    "type": "manual",
-    "base_value": 1,
-    "display_item": {
-      "name": "Регенерация выносливости",
-      "lore": "<gray>Сколько выносливости восстанавливается за секунду.",
-      "type": "sugar"
     }
   },
   "mpGain": {

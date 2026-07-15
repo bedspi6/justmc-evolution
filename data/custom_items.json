@@ -211,5 +211,95 @@
         "saturation": 3
       }
     }
+  },
+  "wooden_pickaxe": {
+    "item": {
+      "name": "Деревянная кирка",
+      "lore": "<gray>Простой инструмент для добычи камня.",
+      "type": "wooden_pickaxe"
+    },
+    "actions": {
+      "hold": {}
+    }
+  },
+  "wooden_axe": {
+    "item": {
+      "name": "Деревянный топор",
+      "lore": "<gray>Простой инструмент для рубки дерева.",
+      "type": "wooden_axe"
+    },
+    "actions": {
+      "hold": {}
+    }
+  },
+  "wooden_sword": {
+    "item": {
+      "name": "Деревянный меч",
+      "lore": "<gray>Слабое оружие для первых шагов.",
+      "type": "wooden_sword"
+    },
+    "actions": {
+      "hold": {}
+    }
+  },
+  "stone_pickaxe": {
+    "item": {
+      "name": "Каменная кирка",
+      "lore": "<gray>Крепче дерева, добывает больше руд.",
+      "type": "stone_pickaxe"
+    },
+    "actions": {
+      "hold": {}
+    }
+  },
+  "stone_axe": {
+    "item": {
+      "name": "Каменный топор",
+      "lore": "<gray>Крепче дерева, рубит быстрее.",
+      "type": "stone_axe"
+    },
+    "actions": {
+      "hold": {}
+    }
+  },
+  "stone_sword": {
+    "item": {
+      "name": "Каменный меч",
+      "lore": "<gray>Надёжное оружие для первых охот.",
+      "type": "stone_sword"
+    },
+    "actions": {
+      "hold": {}
+    }
+  },
+  "iron_pickaxe": {
+    "item": {
+      "name": "Железная кирка",
+      "lore": "<gray>Прочный инструмент, добывает редкие руды.",
+      "type": "iron_pickaxe"
+    },
+    "actions": {
+      "hold": {}
+    }
+  },
+  "iron_axe": {
+    "item": {
+      "name": "Железный топор",
+      "lore": "<gray>Прочный инструмент, рубит без устали.",
+      "type": "iron_axe"
+    },
+    "actions": {
+      "hold": {}
+    }
+  },
+  "iron_sword": {
+    "item": {
+      "name": "Железный меч",
+      "lore": "<gray>Серьёзное оружие для опытного охотника.",
+      "type": "iron_sword"
+    },
+    "actions": {
+      "hold": {}
+    }
   }
 }

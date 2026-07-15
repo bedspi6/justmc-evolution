@@ -1,6 +1,6 @@
 {
     "empty1": "",
-    "mutation_points": "Очки мутации: ^var_save(^var_line(player).mutation_points)",
-    "essence": "Эссенция: ^var_save(^var_line(player).essence)",
+    "mutation_points": "<#A6FF6E>Очки мутации: <white>^var_save(^var_line(player).mutation_points)",
+    "essence": "<#D877F2>Эссенция: <white>^var_save(^var_line(player).essence)",
     "empty2": ""
 }

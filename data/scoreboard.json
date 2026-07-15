@@ -1,0 +1,6 @@
+{
+    "empty1": "",
+    "mutation_points": "Очки мутации: ^var_save(^var_line(player).mutation_points)",
+    "essence": "Эссенция: ^var_save(^var_line(player).essence)",
+    "empty2": ""
+}

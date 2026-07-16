@@ -1,0 +1,13 @@
+[
+    { "item_id": "bone", "price": 1 },
+    { "item_id": "rotten_flesh", "price": 1 },
+    { "item_id": "raw_meat", "price": 3 },
+    { "item_id": "feather", "price": 2 },
+    { "item_id": "string", "price": 2 },
+    { "item_id": "slime_ball", "price": 4 },
+    { "item_id": "spider_eye", "price": 3 },
+    { "item_id": "gunpowder", "price": 5 },
+    { "item_id": "bone_meal", "price": 2 },
+    { "item_id": "wheat_ration", "price": 1 },
+    { "item_id": "berry_cluster", "price": 2 }
+]

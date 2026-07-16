@@ -1,16 +1,26 @@
 [
     {
+        "category": "swords",
+        "item_id": "wooden_sword",
+        "recipe": [
+            { "item": "stick", "amount": 3 },
+            { "item": "string", "amount": 5 }
+        ]
+    },
+    {
         "category": "pickaxes",
         "item_id": "wooden_pickaxe",
         "recipe": [
-            { "item": "stick", "amount": 8 }
+            { "item": "stick", "amount": 8 },
+            { "item": "string", "amount": 5 }
         ]
     },
     {
         "category": "axes",
         "item_id": "wooden_axe",
         "recipe": [
-            { "item": "stick", "amount": 8 }
+            { "item": "stick", "amount": 8 },
+            { "item": "string", "amount": 5 }
         ]
     },
     {
@@ -18,7 +28,8 @@
         "item_id": "stone_sword",
         "recipe": [
             { "item": "stone", "amount": 2 },
-            { "item": "stick", "amount": 3 }
+            { "item": "stick", "amount": 3 },
+            { "item": "string", "amount": 5 }
         ]
     },
     {
@@ -26,7 +37,8 @@
         "item_id": "stone_pickaxe",
         "recipe": [
             { "item": "stone", "amount": 3 },
-            { "item": "stick", "amount": 4 }
+            { "item": "stick", "amount": 4 },
+            { "item": "string", "amount": 5 }
         ]
     },
     {
@@ -34,7 +46,8 @@
         "item_id": "stone_axe",
         "recipe": [
             { "item": "stone", "amount": 3 },
-            { "item": "stick", "amount": 4 }
+            { "item": "stick", "amount": 4 },
+            { "item": "string", "amount": 5 }
         ]
     },
     {
@@ -42,7 +55,8 @@
         "item_id": "iron_sword",
         "recipe": [
             { "item": "iron", "amount": 2 },
-            { "item": "stick", "amount": 3 }
+            { "item": "stick", "amount": 3 },
+            { "item": "string", "amount": 5 }
         ]
     },
     {
@@ -50,7 +64,8 @@
         "item_id": "iron_pickaxe",
         "recipe": [
             { "item": "iron", "amount": 3 },
-            { "item": "stick", "amount": 4 }
+            { "item": "stick", "amount": 4 },
+            { "item": "string", "amount": 5 }
         ]
     },
     {
@@ -58,7 +73,8 @@
         "item_id": "iron_axe",
         "recipe": [
             { "item": "iron", "amount": 3 },
-            { "item": "stick", "amount": 4 }
+            { "item": "stick", "amount": 4 },
+            { "item": "string", "amount": 5 }
         ]
     }
 ]

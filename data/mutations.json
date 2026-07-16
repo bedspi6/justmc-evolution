@@ -5,7 +5,7 @@
     "display_item": {
       "name": "Зазубренные клыки",
       "lore": "<gray>Зубы становятся длиннее и острее, позволяя наносить более глубокие раны.",
-      "type": "<sprite:items:item/bone>"
+      "type": "bone"
     },
     "requirements": [
       { "type": "mutation_points", "data": { "amount": 15, "per_level": 10 } },
@@ -14,7 +14,7 @@
     "rewards": [
       { "type": "stat_flat", "data": { "stat": "biteDamage", "value": 3, "per_level": 2 } },
       { "type": "stat_flat", "data": { "stat": "bleedDamage", "value": 1, "per_level": 1 } },
-      { "type": "unlock_ability", "data": { "ability_id": "bite", "per_level": 0 } }
+      { "type": "unlock_ability", "data": { "ability_id": "bite" } }
     ]
   },
   "elastic_jaw": {
@@ -23,7 +23,7 @@
     "display_item": {
       "name": "Эластичная челюсть",
       "lore": "<gray>Связки челюсти растягиваются, позволяя кусать быстрее и шире.",
-      "type": "<sprite:items:item/slime_ball>"
+      "type": "slime_ball"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "serrated_fangs" } },
@@ -41,7 +41,7 @@
     "display_item": {
       "name": "Ядовитые железы",
       "lore": "<gray>За челюстью разрастаются железы, вырабатывающие едкий яд для дальних плевков.",
-      "type": "<sprite:items:item/fermented_spider_eye>"
+      "type": "fermented_spider_eye"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "elastic_jaw" } },
@@ -51,7 +51,7 @@
     "rewards": [
       { "type": "stat_flat", "data": { "stat": "rangedDamage", "value": 4, "per_level": 2 } },
       { "type": "stat_flat", "data": { "stat": "bleedDamage", "value": 1, "per_level": 1 } },
-      { "type": "unlock_ability", "data": { "ability_id": "split", "per_level": 0 } }
+      { "type": "unlock_ability", "data": { "ability_id": "split" } }
     ]
   },
   "keen_smell": {
@@ -60,7 +60,7 @@
     "display_item": {
       "name": "Острое чутьё",
       "lore": "<gray>Обоняние обостряется, позволяя чувствовать ресурсы на большем расстоянии.",
-      "type": "<sprite:items:item/spyglass>"
+      "type": "spyglass"
     },
     "requirements": [
       { "type": "mutation_points", "data": { "amount": 15, "per_level": 10 } },
@@ -69,7 +69,7 @@
     "rewards": [
       { "type": "stat_flat", "data": { "stat": "detectionRadius", "value": 5, "per_level": 3 } },
       { "type": "stat_percent", "data": { "stat": "harvestYield", "value": 5, "per_level": 3 } },
-      { "type": "unlock_ability", "data": { "ability_id": "scan", "per_level": 0 } }
+      { "type": "unlock_ability", "data": { "ability_id": "scan" } }
     ]
   },
   "efficient_digestion": {
@@ -78,7 +78,7 @@
     "display_item": {
       "name": "Эффективное пищеварение",
       "lore": "<gray>Организм извлекает больше пользы из добытых ресурсов.",
-      "type": "<sprite:items:item/rotten_flesh>"
+      "type": "rotten_flesh"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "keen_smell" } },
@@ -96,7 +96,7 @@
     "display_item": {
       "name": "Костяная броня",
       "lore": "<gray>Под кожей формируются костяные пластины, защищающие от ударов.",
-      "type": "<sprite:items:item/iron_chestplate>"
+      "type": "iron_chestplate"
     },
     "requirements": [
       { "type": "mutation_points", "data": { "amount": 15, "per_level": 10 } },
@@ -113,7 +113,7 @@
     "display_item": {
       "name": "Укреплённый череп",
       "lore": "<gray>Кости черепа утолщаются, гася силу встречных ударов.",
-      "type": "<sprite:blocks:block/skeleton_skull>"
+      "type": "skeleton_skull"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "bone_plating" } },
@@ -131,7 +131,7 @@
     "display_item": {
       "name": "Шипастая шкура",
       "lore": "<gray>Кожа покрывается острыми шипами, ранящими нападающих.",
-      "type": "<sprite:blocks:block/cactus>"
+      "type": "cactus"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "reinforced_skull" } },
@@ -149,7 +149,7 @@
     "display_item": {
       "name": "Усиленные органы",
       "lore": "<gray>Внутренние органы становятся крепче, повышая живучесть.",
-      "type": "<sprite:items:item/beef>"
+      "type": "beef"
     },
     "requirements": [
       { "type": "mutation_points", "data": { "amount": 15, "per_level": 10 } },
@@ -166,7 +166,7 @@
     "display_item": {
       "name": "Регенерирующая ткань",
       "lore": "<gray>Клетки тела делятся быстрее, ускоряя восстановление ран.",
-      "type": "<sprite:items:item/honey_bottle>"
+      "type": "honey_bottle"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "reinforced_organs" } },
@@ -184,7 +184,7 @@
     "display_item": {
       "name": "Лёгкий каркас",
       "lore": "<gray>Кости становятся тоньше и легче, увеличивая скорость передвижения.",
-      "type": "<sprite:items:item/feather>"
+      "type": "feather"
     },
     "requirements": [
       { "type": "mutation_points", "data": { "amount": 15, "per_level": 10 } },
@@ -201,7 +201,7 @@
     "display_item": {
       "name": "Расширенные лёгкие",
       "lore": "<gray>Объём лёгких увеличивается, позволяя дольше сохранять выносливость.",
-      "type": "<sprite:items:item/phantom_membrane>"
+      "type": "phantom_membrane"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "lightweight_frame" } },
@@ -219,7 +219,7 @@
     "display_item": {
       "name": "Эффективное дыхание",
       "lore": "<gray>Дыхательная система работает экономичнее, ускоряя восстановление сил.",
-      "type": "<sprite:items:item/sugar>"
+      "type": "sugar"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "expanded_lungs" } },
@@ -237,7 +237,7 @@
     "display_item": {
       "name": "Эластичные сухожилия",
       "lore": "<gray>Сухожилия становятся упругими, как пружины, увеличивая высоту прыжка.",
-      "type": "<sprite:items:item/string>"
+      "type": "string"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "efficient_breathing" } },
@@ -255,7 +255,7 @@
     "display_item": {
       "name": "Грибная сеть",
       "lore": "<gray>Симбиотические грибы оплетают тело, ускоряя накопление очков мутации.",
-      "type": "<sprite:blocks:block/brown_mushroom>"
+      "type": "brown_mushroom"
     },
     "requirements": [
       { "type": "mutation_points", "data": { "amount": 15, "per_level": 10 } },
@@ -272,7 +272,7 @@
     "display_item": {
       "name": "Поглощение питательных веществ",
       "lore": "<gray>Симбионты помогают перерабатывать добычу с большей отдачей.",
-      "type": "<sprite:blocks:block/red_mushroom>"
+      "type": "red_mushroom"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "fungal_network" } },
@@ -290,7 +290,7 @@
     "display_item": {
       "name": "Живая колония",
       "lore": "<gray>Колония симбионтов срастается с телом, непрерывно восстанавливая раны.",
-      "type": "<sprite:blocks:block/mycelium_top>"
+      "type": "mycelium"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "nutrient_absorption" } },
@@ -308,7 +308,7 @@
     "display_item": {
       "name": "Костяная булава",
       "lore": "<gray>Кончик хвоста утолщается, превращаясь в тяжёлую костяную дубину.",
-      "type": "<sprite:items:item/bone>"
+      "type": "bone"
     },
     "requirements": [
       { "type": "mutation_points", "data": { "amount": 15, "per_level": 10 } },
@@ -317,7 +317,7 @@
     "rewards": [
       { "type": "stat_flat", "data": { "stat": "tailAttackDamage", "value": 4, "per_level": 2 } },
       { "type": "stat_percent", "data": { "stat": "tailAttackSpeed", "value": 5, "per_level": 3 } },
-      { "type": "unlock_ability", "data": { "ability_id": "tailAttack", "per_level": 0 } }
+      { "type": "unlock_ability", "data": { "ability_id": "tailAttack" } }
     ]
   },
   "whip_tail": {
@@ -326,7 +326,7 @@
     "display_item": {
       "name": "Хлёсткий хвост",
       "lore": "<gray>Хвост становится тоньше и гибче, позволяя наносить удары молниеносно.",
-      "type": "<sprite:items:item/string>"
+      "type": "string"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "bone_club" } },
@@ -336,7 +336,7 @@
     "rewards": [
       { "type": "stat_percent", "data": { "stat": "tailAttackSpeed", "value": 15, "per_level": 8 } },
       { "type": "stat_flat", "data": { "stat": "tailAttackDamage", "value": 1, "per_level": 1 } },
-      { "type": "unlock_ability", "data": { "ability_id": "bite", "per_level": 0 } }
+      { "type": "unlock_ability", "data": { "ability_id": "bite" } }
     ]
   },
   "barbed_tail": {
@@ -345,7 +345,7 @@
     "display_item": {
       "name": "Зазубренный хвост",
       "lore": "<gray>На хвосте вырастают острые шипы, оставляющие кровоточащие раны.",
-      "type": "<sprite:blocks:block/cactus>"
+      "type": "cactus"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "whip_tail" } },
@@ -363,7 +363,7 @@
     "display_item": {
       "name": "Плавниковый гребень",
       "lore": "<gray>Вдоль хвоста вырастает плавник, позволяющий быстрее рассекать воду.",
-      "type": "<sprite:items:item/prismarine_shard>"
+      "type": "prismarine_shard"
     },
     "requirements": [
       { "type": "mutation_points", "data": { "amount": 15, "per_level": 10 } },
@@ -380,7 +380,7 @@
     "display_item": {
       "name": "Роющий хвост",
       "lore": "<gray>Хвост укрепляется и заостряется, позволяя прорывать землю на ходу.",
-      "type": "<sprite:blocks:block/dirt>"
+      "type": "dirt"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "stream_fin" } },
@@ -390,7 +390,7 @@
     "rewards": [
       { "type": "stat_percent", "data": { "stat": "digSpeed", "value": 15, "per_level": 8 } },
       { "type": "stat_percent", "data": { "stat": "moveSpeed", "value": 3, "per_level": 2 } },
-      { "type": "unlock_ability", "data": { "ability_id": "dig", "per_level": 0 } }
+      { "type": "unlock_ability", "data": { "ability_id": "dig" } }
     ]
   },
   "gripping_tail": {
@@ -399,7 +399,7 @@
     "display_item": {
       "name": "Цепкий хвост",
       "lore": "<gray>Хвост обретает хватательные мышцы, позволяющие уверенно карабкаться.",
-      "type": "<sprite:blocks:block/vine>"
+      "type": "vine"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "burrowing_tail" } },
@@ -417,7 +417,7 @@
     "display_item": {
       "name": "Адаптация к местности",
       "lore": "<gray>Тело приспосабливается ко всем типам ландшафта, ускоряя передвижение везде.",
-      "type": "<sprite:items:item/leather>"
+      "type": "leather"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "gripping_tail" } },
@@ -436,7 +436,7 @@
     "display_item": {
       "name": "Балансирующий хвост",
       "lore": "<gray>Хвост помогает удерживать равновесие, уклоняясь от атак.",
-      "type": "<sprite:items:item/feather>"
+      "type": "feather"
     },
     "requirements": [
       { "type": "mutation_points", "data": { "amount": 15, "per_level": 10 } },
@@ -453,7 +453,7 @@
     "display_item": {
       "name": "Амортизация удара",
       "lore": "<gray>Суставы и мышцы гасят удар при падении, смягчая приземление.",
-      "type": "<sprite:items:item/slime_ball>"
+      "type": "slime_ball"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "balancing_tail" } },
@@ -471,7 +471,7 @@
     "display_item": {
       "name": "Контрудар",
       "lore": "<gray>Рефлексы обостряются, позволяя мгновенно отвечать на атаку противника.",
-      "type": "<sprite:items:item/shield>"
+      "type": "shield"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "shock_absorption" } },
@@ -489,7 +489,7 @@
     "display_item": {
       "name": "Точный удар",
       "lore": "<gray>Инстинкты обостряются настолько, что позволяют находить уязвимые точки противника.",
-      "type": "<sprite:items:item/spyglass>"
+      "type": "spyglass"
     },
     "requirements": [
       { "type": "node_unlocked", "data": { "nodeId": "counter_balance" } },

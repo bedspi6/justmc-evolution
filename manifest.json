@@ -8,6 +8,8 @@
         "action_types.json",
         "custom_items.json",
         "essence.json",
+        "crafting_categories.json",
+        "crafting.json",
         "abilities.json",
         "characteristics.json",
         "body_parts.json",

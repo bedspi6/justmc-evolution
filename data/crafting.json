@@ -1,0 +1,64 @@
+[
+    {
+        "category": "pickaxes",
+        "item_id": "wooden_pickaxe",
+        "recipe": [
+            { "item": "stick", "amount": 8 }
+        ]
+    },
+    {
+        "category": "axes",
+        "item_id": "wooden_axe",
+        "recipe": [
+            { "item": "stick", "amount": 8 }
+        ]
+    },
+    {
+        "category": "swords",
+        "item_id": "stone_sword",
+        "recipe": [
+            { "item": "stone", "amount": 2 },
+            { "item": "stick", "amount": 3 }
+        ]
+    },
+    {
+        "category": "pickaxes",
+        "item_id": "stone_pickaxe",
+        "recipe": [
+            { "item": "stone", "amount": 3 },
+            { "item": "stick", "amount": 4 }
+        ]
+    },
+    {
+        "category": "axes",
+        "item_id": "stone_axe",
+        "recipe": [
+            { "item": "stone", "amount": 3 },
+            { "item": "stick", "amount": 4 }
+        ]
+    },
+    {
+        "category": "swords",
+        "item_id": "iron_sword",
+        "recipe": [
+            { "item": "iron", "amount": 2 },
+            { "item": "stick", "amount": 3 }
+        ]
+    },
+    {
+        "category": "pickaxes",
+        "item_id": "iron_pickaxe",
+        "recipe": [
+            { "item": "iron", "amount": 3 },
+            { "item": "stick", "amount": 4 }
+        ]
+    },
+    {
+        "category": "axes",
+        "item_id": "iron_axe",
+        "recipe": [
+            { "item": "iron", "amount": 3 },
+            { "item": "stick", "amount": 4 }
+        ]
+    }
+]

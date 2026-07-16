@@ -1,0 +1,30 @@
+{
+    "ingredients": {
+        "display_item": {
+            "name": "Ингредиенты",
+            "lore": "<gray>Различные материалы, используемые для крафта и приготовления.",
+            "type": "bone"
+        }
+    },
+    "swords": {
+        "item": {
+            "name": "Мечи",
+            "lore": "<gray>Оружие ближнего боя, наносящее урон при ударе.",
+            "type": "iron_sword"
+        }
+    },
+    "axes": {
+        "display_item": {
+            "name": "Топоры",
+            "lore": "<gray>Инструменты для рубки деревьев.",
+            "type": "iron_axe"
+        }
+    },
+    "pickaxes": {
+        "display_item": {
+            "name": "Кирки",
+            "lore": "<gray>Инструменты для добычи камня и руд.",
+            "type": "iron_pickaxe"
+        }
+    }
+}

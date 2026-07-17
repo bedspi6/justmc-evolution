@@ -286,6 +286,22 @@
       { "type": "stat_flat", "data": { "stat": "moveSpeed", "value": 0.1, "per_level": 0 } }
     ]
   },
+  "crafting_skills": {
+    "branch_id": "utility",
+    "max_level": 5,
+    "display_item": {
+      "name": "Навыки крафта",
+      "lore": "<gray>Ускоряет процесс создания предметов.",
+      "type": "crafting_table"
+    },
+    "requirements": [
+      { "type": "mutation_points", "data": { "amount": 15, "per_level": 3 } },
+      { "type": "resource", "data": { "item": "stick", "amount": 15, "per_level": 1 } }
+    ],
+    "rewards": [
+      { "type": "stat_flat", "data": { "stat": "craftingSpeed", "value": 2, "per_level": 0 } }
+    ]
+  },
   "balancing_tail": {
     "branch_id": "utility",
     "max_level": 5,

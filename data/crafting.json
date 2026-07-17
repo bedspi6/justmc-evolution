@@ -1,35 +1,35 @@
 [
     {
-        "category": "swords",
+        "category": "tools",
         "item_id": "wooden_sword",
-        "duration": 400,
+        "duration": 20,
         "recipe": [
             { "item": "stick", "amount": 3 },
             { "item": "string", "amount": 5 }
         ]
     },
     {
-        "category": "pickaxes",
+        "category": "tools",
         "item_id": "wooden_pickaxe",
-        "duration": 400,
+        "duration": 20,
         "recipe": [
             { "item": "stick", "amount": 8 },
             { "item": "string", "amount": 5 }
         ]
     },
     {
-        "category": "axes",
+        "category": "tools",
         "item_id": "wooden_axe",
-        "duration": 400,
+        "duration": 20,
         "recipe": [
             { "item": "stick", "amount": 8 },
             { "item": "string", "amount": 5 }
         ]
     },
     {
-        "category": "swords",
+        "category": "tools",
         "item_id": "stone_sword",
-        "duration": 800,
+        "duration": 40,
         "recipe": [
             { "item": "stone", "amount": 2 },
             { "item": "stick", "amount": 3 },
@@ -37,9 +37,9 @@
         ]
     },
     {
-        "category": "pickaxes",
+        "category": "tools",
         "item_id": "stone_pickaxe",
-        "duration": 800,
+        "duration": 40,
         "recipe": [
             { "item": "stone", "amount": 3 },
             { "item": "stick", "amount": 4 },
@@ -47,9 +47,9 @@
         ]
     },
     {
-        "category": "axes",
+        "category": "tools",
         "item_id": "stone_axe",
-        "duration": 800,
+        "duration": 40,
         "recipe": [
             { "item": "stone", "amount": 3 },
             { "item": "stick", "amount": 4 },
@@ -57,9 +57,9 @@
         ]
     },
     {
-        "category": "swords",
+        "category": "tools",
         "item_id": "iron_sword",
-        "duration": 1600,
+        "duration": 80,
         "recipe": [
             { "item": "iron", "amount": 2 },
             { "item": "stick", "amount": 3 },
@@ -67,9 +67,9 @@
         ]
     },
     {
-        "category": "pickaxes",
+        "category": "tools",
         "item_id": "iron_pickaxe",
-        "duration": 1600,
+        "duration": 80,
         "recipe": [
             { "item": "iron", "amount": 3 },
             { "item": "stick", "amount": 4 },
@@ -77,9 +77,9 @@
         ]
     },
     {
-        "category": "axes",
+        "category": "tools",
         "item_id": "iron_axe",
-        "duration": 1600,
+        "duration": 80,
         "recipe": [
             { "item": "iron", "amount": 3 },
             { "item": "stick", "amount": 4 },

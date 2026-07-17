@@ -6,25 +6,11 @@
             "type": "bone"
         }
     },
-    "swords": {
-        "item": {
-            "name": "Мечи",
-            "lore": "<gray>Оружие ближнего боя, наносящее урон при ударе.",
+    "tools": {
+        "display_item": {
+            "name": "Инструменты",
+            "lore": "<gray>Различные инструменты, используемые для крафта и приготовления.",
             "type": "iron_sword"
-        }
-    },
-    "axes": {
-        "display_item": {
-            "name": "Топоры",
-            "lore": "<gray>Инструменты для рубки деревьев.",
-            "type": "iron_axe"
-        }
-    },
-    "pickaxes": {
-        "display_item": {
-            "name": "Кирки",
-            "lore": "<gray>Инструменты для добычи камня и руд.",
-            "type": "iron_pickaxe"
         }
     }
 }

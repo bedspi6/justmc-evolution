@@ -32,7 +32,7 @@
             "damage": "medium",
             "speed": "low"
         },
-        "armor": {"main_hand": "bow"},
+        "armor": {"hand": "bow"},
         "hp": { "base": 10, "per_level": 4},
         "damage": { "base": 2, "per_level": 1},
         "speed": { "base": 0.2 },

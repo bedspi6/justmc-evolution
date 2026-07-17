@@ -1,42 +1,121 @@
 {
-    "zombie": {
-        "type": "zombie",
-        "display_name": "ЗОМБИ",
-        "display_item": {
-            "type": "zombie_spawn_egg",
-            "name": "Ближний Зомби",
-            "lore": "<gray>Моб ближнего боя"
-        },
-        "display_lore": {
-            "hp": "medium",
-            "damage": "medium",
-            "speed": "low"
-        },
-        "hp": { "base": 10, "per_level": 4},
-        "damage": { "base": 2, "per_level": 1},
-        "speed": { "base": 0.2 },
-        "drops": [
-            {"item": "rotten_flesh", "amount": 1}
-        ]
+  "zombie": {
+    "type": "zombie",
+    "display_name": "ЗОМБИ",
+    "display_item": {
+      "type": "zombie_spawn_egg",
+      "name": "Зомби",
+      "lore": "<gray>Моб ближнего боя"
     },
-    "husk": {
-        "type": "husk",
-        "display_name": "КАДАВР",
-        "display_item": {
-            "type": "husk_spawn_egg",
-            "name": "Кадавр",
-            "lore": "<gray>Моб ближнего боя"
-        },
-        "display_lore": {
-            "hp": "high",
-            "damage": "high",
-            "speed": "low"
-        },
-        "hp": { "base": 30, "per_level": 5},
-        "damage": { "base": 2, "per_level": 2},
-        "speed": { "base": 0.2 },
-        "drops": [
-            {"item": "rotten_flesh", "amount": 1}
-        ]
-    }
+    "display_lore": {
+      "hp": "medium",
+      "damage": "medium",
+      "speed": "low"
+    },
+    "hp": { "base": 10, "per_level": 4 },
+    "damage": { "base": 2, "per_level": 1 },
+    "speed": { "base": 0.2 },
+    "drops": [
+      { "item": "rotten_flesh", "amount": 1 }
+    ]
+  },
+  "husk": {
+    "type": "husk",
+    "display_name": "КАДАВР",
+    "display_item": {
+      "type": "husk_spawn_egg",
+      "name": "Кадавр",
+      "lore": "<gray>Моб ближнего боя"
+    },
+    "display_lore": {
+      "hp": "high",
+      "damage": "high",
+      "speed": "low"
+    },
+    "hp": { "base": 30, "per_level": 5 },
+    "damage": { "base": 2, "per_level": 2 },
+    "speed": { "base": 0.2 },
+    "drops": [
+      { "item": "rotten_flesh", "amount": 1 }
+    ]
+  },
+  "spider": {
+    "type": "spider",
+    "display_name": "ПАУК",
+    "display_item": {
+      "type": "spider_spawn_egg",
+      "name": "Паук",
+      "lore": "<gray>Быстрый моб ближнего боя"
+    },
+    "display_lore": {
+      "hp": "low",
+      "damage": "medium",
+      "speed": "high"
+    },
+    "hp": { "base": 16, "per_level": 3 },
+    "damage": { "base": 2, "per_level": 1.5 },
+    "speed": { "base": 0.3 },
+    "drops": [
+      { "item": "string", "amount": 1 },
+      { "item": "spider_eye", "amount": 1 }
+    ]
+  },
+  "silverfish": {
+    "type": "silverfish",
+    "display_name": "ЧЕШУЙНИЦА",
+    "display_item": {
+      "type": "silverfish_spawn_egg",
+      "name": "Чешуйница",
+      "lore": "<gray>Маленький и юркий моб"
+    },
+    "display_lore": {
+      "hp": "low",
+      "damage": "low",
+      "speed": "high"
+    },
+    "hp": { "base": 8, "per_level": 2 },
+    "damage": { "base": 1, "per_level": 0.5 },
+    "speed": { "base": 0.4 },
+    "drops": []
+  },
+  "skeleton": {
+    "type": "skeleton",
+    "display_name": "СКЕЛЕТ",
+    "display_item": {
+      "type": "skeleton_spawn_egg",
+      "name": "Скелет-Лучник",
+      "lore": "<gray>Опасный моб дальнего боя"
+    },
+    "display_lore": {
+      "hp": "medium",
+      "damage": "high",
+      "speed": "medium"
+    },
+    "hp": { "base": 20, "per_level": 4 },
+    "damage": { "base": 3, "per_level": 1.5 },
+    "speed": { "base": 0.25 },
+    "drops": [
+      { "item": "bone", "amount": 1 }
+    ]
+  },
+  "creeper": {
+    "type": "creeper",
+    "display_name": "КРИПЕР",
+    "display_item": {
+      "type": "creeper_spawn_egg",
+      "name": "Крипер",
+      "lore": "<gray>Взрывоопасный моб"
+    },
+    "display_lore": {
+      "hp": "medium",
+      "damage": "high",
+      "speed": "medium"
+    },
+    "hp": { "base": 20, "per_level": 4 },
+    "damage": { "base": 6, "per_level": 3 },
+    "speed": { "base": 0.25 },
+    "drops": [
+      { "item": "gunpowder", "amount": 1 }
+    ]
+  }
 }

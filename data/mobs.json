@@ -137,5 +137,25 @@
     "drops": [
       { "item": "gunpowder", "amount": 1 }
     ]
+  },
+  "slime": {
+    "type": "slime",
+    "display_name": "СЛИЗЬ",
+    "display_item": {
+      "type": "slime_spawn_egg",
+      "name": "Слизь",
+      "lore": "<gray>Моб"
+    },
+    "display_lore": {
+      "hp": "different",
+      "damage": "different",
+      "speed": "low"
+    },
+    "hp": { "base": 20, "per_level": 4 },
+    "damage": { "base": 6, "per_level": 3 },
+    "speed": { "base": 0.25 },
+    "drops": [
+      { "item": "slime_ball", "amount": 1 }
+    ]
   }
 }

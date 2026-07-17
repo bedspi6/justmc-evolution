@@ -1,10 +1,10 @@
 {
     "melee_zombie": {
         "type": "zombie",
-        "display_name": "БЛИЖНЫЙ ЗОМБИ",
+        "display_name": "БЛИЖНИЙ ЗОМБИ",
         "display_item": {
-            "type": "zombie_egg",
-            "name": "Ближный Зомби",
+            "type": "zombie_spawn_egg",
+            "name": "Ближний Зомби",
             "lore": "<gray>Моб ближнего боя"
         },
         "display_lore": {
@@ -19,12 +19,12 @@
             {"item": "rotten_flesh", "amount": 1}
         ]
     },
-    "zombie": {
+    "distant_zombie": {
         "type": "zombie",
-        "display_name": "ДАЛЬНЫЙ ЗОМБИ",
+        "display_name": "ДАЛЬНИЙ ЗОМБИ",
         "display_item": {
-            "type": "zombie_egg",
-            "name": "Дальный Зомби",
+            "type": "zombie_spawn_egg",
+            "name": "Дальний Зомби",
             "lore": "<gray>Моб дальнего боя"
         },
         "display_lore": {

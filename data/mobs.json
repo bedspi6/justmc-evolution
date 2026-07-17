@@ -1,0 +1,43 @@
+{
+    "melee_zombie": {
+        "type": "zombie",
+        "display_name": "БЛИЖНЫЙ ЗОМБИ",
+        "display_item": {
+            "type": "zombie_egg",
+            "name": "Ближный Зомби",
+            "lore": "<gray>Моб ближнего боя"
+        },
+        "display_lore": {
+            "hp": "medium",
+            "damage": "medium",
+            "speed": "low"
+        },
+        "hp": { "base": 10, "per_level": 4},
+        "damage": { "base": 2, "per_level": 1},
+        "speed": { "base": 0.2 },
+        "drops": [
+            {"item": "rotten_flesh", "amount": 1}
+        ]
+    },
+    "zombie": {
+        "type": "zombie",
+        "display_name": "ДАЛЬНЫЙ ЗОМБИ",
+        "display_item": {
+            "type": "zombie_egg",
+            "name": "Дальный Зомби",
+            "lore": "<gray>Моб дальнего боя"
+        },
+        "display_lore": {
+            "hp": "medium",
+            "damage": "medium",
+            "speed": "low"
+        },
+        "armor": {"main_hand": "bow"},
+        "hp": { "base": 10, "per_level": 4},
+        "damage": { "base": 2, "per_level": 1},
+        "speed": { "base": 0.2 },
+        "drops": [
+            {"item": "rotten_flesh", "amount": 1}
+        ]
+    }
+}

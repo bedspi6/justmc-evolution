@@ -13,13 +13,6 @@
         "type": "spider_eye"
       }
     },
-    "scan": {
-      "display_item": {
-        "name": "Сканирование",
-        "lore": "<gray>Обнаруживает ресурсы и мобов в радиусе.",
-        "type": "spyglass"
-      }
-    },
     "dig": {
       "display_item": {
         "name": "Копание",

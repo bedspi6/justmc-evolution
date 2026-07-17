@@ -9,12 +9,12 @@
       "type": "iron_sword"
     }
   },
-  "biteSpeed": {
+  "biteCooldown": {
     "type": "ability",
     "ability_id": "bite",
     "base_value": 100,
     "display_item": {
-      "name": "Скорость атаки",
+      "name": "Заддержка укуса",
       "lore": "<gray>Насколько быстро наносится укус.",
       "type": "clock"
     }
@@ -29,9 +29,18 @@
       "type": "spider_eye"
     }
   },
-  "detectionRadius": {
+  "rangedCooldown": {
     "type": "ability",
-    "ability_id": "scan",
+    "ability_id": "split",
+    "base_value": 0,
+    "display_item": {
+      "name": "Заддержка дальной атаки",
+      "lore": "<gray>Заддержка броскового удара.",
+      "type": "clock"
+    }
+  },
+  "detectionRadius": {
+    "type": "manual",
     "base_value": 0,
     "display_item": {
       "name": "Радиус обнаружения",
@@ -126,13 +135,13 @@
       "type": "bone"
     }
   },
-  "tailAttackSpeed": {
+  "tailAttackCooldown": {
     "type": "ability",
     "ability_id": "tailAttack",
     "base_value": 100,
     "display_item": {
-      "name": "Скорость удара хвостом",
-      "lore": "<gray>Насколько быстро хвост наносит удар.",
+      "name": "Заддержка удара хвостом",
+      "lore": "<gray>Насколько хвосту придется ждать.",
       "type": "string"
     }
   },
@@ -155,7 +164,7 @@
       "type": "tropical_fish"
     }
   },
-  "digSpeed": {
+  "digDuration": {
     "type": "ability",
     "ability_id": "dig",
     "base_value": 100,
@@ -163,15 +172,6 @@
       "name": "Скорость копания",
       "lore": "<gray>Насколько быстро существо роет землю.",
       "type": "iron_shovel"
-    }
-  },
-  "climbSpeed": {
-    "type": "manual",
-    "base_value": 100,
-    "display_item": {
-      "name": "Скорость лазания",
-      "lore": "<gray>Насколько быстро существо карабкается по поверхностям.",
-      "type": "vine"
     }
   },
   "evasion": {
@@ -208,6 +208,15 @@
       "name": "Шанс крита",
       "lore": "<gray>Вероятность нанесения критического удара.",
       "type": "glow_ink_sac"
+    }
+  },
+  "craftingSpeed": {
+    "type": "manual",
+    "base_value": 0,
+    "display_item": {
+      "name": "Скорость создания",
+      "lore": "<gray>Уменьшает время (в тиках) необходимое для создания предметов.",
+      "type": "crafting_table"
     }
   }
 }

@@ -144,7 +144,8 @@
     "item": {
       "name": "Деревянный меч",
       "lore": "<gray>Слабое оружие для первых шагов.",
-      "type": "wooden_sword"
+      "type": "wooden_sword",
+      "nbts": {"sword": "true"}
     },
     "actions": {
       "hold": {}
@@ -180,7 +181,8 @@
     "item": {
       "name": "Каменный меч",
       "lore": "<gray>Надёжное оружие для первых охот.",
-      "type": "stone_sword"
+      "type": "stone_sword",
+      "nbts": {"sword": "true"}
     },
     "actions": {
       "hold": {}
@@ -216,7 +218,8 @@
     "item": {
       "name": "Железный меч",
       "lore": "<gray>Серьёзное оружие для опытного охотника.",
-      "type": "iron_sword"
+      "type": "iron_sword",
+      "nbts": {"sword": "true"}
     },
     "actions": {
       "hold": {}

@@ -1,5 +1,5 @@
 {
-    "melee_zombie": {
+    "zombie": {
         "type": "zombie",
         "display_name": "ЗОМБИ",
         "display_item": {
@@ -19,7 +19,7 @@
             {"item": "rotten_flesh", "amount": 1}
         ]
     },
-    "distant_zombie": {
+    "husk": {
         "type": "husk",
         "display_name": "КАДАВР",
         "display_item": {
@@ -33,7 +33,7 @@
             "speed": "low"
         },
         "hp": { "base": 30, "per_level": 5},
-        "damage": { "base": 2, "per_level": 5},
+        "damage": { "base": 2, "per_level": 2},
         "speed": { "base": 0.2 },
         "drops": [
             {"item": "rotten_flesh", "amount": 1}

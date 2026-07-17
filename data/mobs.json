@@ -20,10 +20,10 @@
         ]
     },
     "distant_zombie": {
-        "type": "zombie",
+        "type": "husk",
         "display_name": "ДАЛЬНИЙ ЗОМБИ",
         "display_item": {
-            "type": "zombie_spawn_egg",
+            "type": "husk_spawn_egg",
             "name": "Дальний Зомби",
             "lore": "<gray>Моб дальнего боя"
         },

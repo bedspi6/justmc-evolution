@@ -40,5 +40,6 @@
   "tropical_fish": "<sprite:items:item/tropical_fish>",
   "iron_shovel": "<sprite:items:item/iron_shovel>",
   "poisonous_potato": "<sprite:items:item/poisonous_potato>",
-  "glow_ink_sac": "<sprite:items:item/glow_ink_sac>"
+  "glow_ink_sac": "<sprite:items:item/glow_ink_sac>",
+  "iron_ingot": "<sprite:items:item/iron_ingot>"
 }

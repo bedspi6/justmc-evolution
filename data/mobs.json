@@ -39,6 +39,47 @@
       { "item": "rotten_flesh", "amount": 2 }
     ]
   },
+  "skeleton": {
+    "type": "skeleton",
+    "display_name": "СКЕЛЕТ",
+    "display_item": {
+      "type": "skeleton_spawn_egg",
+      "name": "Скелет",
+      "lore": "<gray>Опасный моб ближнего боя"
+    },
+    "display_lore": {
+      "hp": "medium",
+      "damage": "high",
+      "speed": "medium"
+    },
+    "hp": { "base": 20, "per_level": 4 },
+    "damage": { "base": 3, "per_level": 1.5 },
+    "speed": { "base": 0.25 },
+    "drops": [
+      { "item": "bone", "amount": 3 }
+    ]
+  },
+  "distant_skeleton": {
+    "type": "skeleton",
+    "display_name": "СКЕЛЕТ-ЛУЧНИК",
+    "display_item": {
+      "type": "skeleton_spawn_egg",
+      "name": "Скелет-Лучник",
+      "lore": "<gray>Опасный моб дальнего боя"
+    },
+    "display_lore": {
+      "hp": "medium",
+      "damage": "high",
+      "speed": "medium"
+    },
+    "armor": { "hand": "bow" },
+    "hp": { "base": 20, "per_level": 4 },
+    "damage": { "base": 3, "per_level": 1.5 },
+    "speed": { "base": 0.25 },
+    "drops": [
+      { "item": "bone", "amount": 1 }
+    ]
+  },
   "spider": {
     "type": "spider",
     "display_name": "ПАУК",
@@ -76,47 +117,6 @@
     "hp": { "base": 8, "per_level": 2 },
     "damage": { "base": 1, "per_level": 0.5 },
     "speed": { "base": 0.4 }
-  },
-  "distant_skeleton": {
-    "type": "skeleton",
-    "display_name": "СКЕЛЕТ-ЛУЧНИК",
-    "display_item": {
-      "type": "skeleton_spawn_egg",
-      "name": "Скелет-Лучник",
-      "lore": "<gray>Опасный моб дальнего боя"
-    },
-    "display_lore": {
-      "hp": "medium",
-      "damage": "high",
-      "speed": "medium"
-    },
-    "armor": {"hand": "bow"},
-    "hp": { "base": 20, "per_level": 4 },
-    "damage": { "base": 3, "per_level": 1.5 },
-    "speed": { "base": 0.25 },
-    "drops": [
-      { "item": "bone", "amount": 1 }
-    ]
-  },
-  "skeleton": {
-    "type": "skeleton",
-    "display_name": "СКЕЛЕТ",
-    "display_item": {
-      "type": "skeleton_spawn_egg",
-      "name": "Скелет",
-      "lore": "<gray>Опасный моб ближнего боя"
-    },
-    "display_lore": {
-      "hp": "medium",
-      "damage": "high",
-      "speed": "medium"
-    },
-    "hp": { "base": 20, "per_level": 4 },
-    "damage": { "base": 3, "per_level": 1.5 },
-    "speed": { "base": 0.25 },
-    "drops": [
-      { "item": "bone", "amount": 3 }
-    ]
   },
   "creeper": {
     "type": "creeper",

@@ -69,6 +69,13 @@
       "type": "bone_meal"
     }
   },
+  "leather": {
+    "item": {
+      "name": "Кожа",
+      "lore": "<gray>Кожа, прочный материал для защиты.",
+      "type": "leather"
+    }
+  },
   "wheat_ration": {
     "item": {
       "name": "Пшеничный паёк",

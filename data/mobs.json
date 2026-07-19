@@ -144,7 +144,7 @@
     "display_item": {
       "type": "slime_spawn_egg",
       "name": "Слизь",
-      "lore": "<gray>Моб"
+      "lore": "<gray>Разделяющий моб"
     },
     "display_lore": {
       "hp": "different",

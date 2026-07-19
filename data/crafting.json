@@ -1,5 +1,33 @@
 [
     {
+        "category": "ingridients",
+        "item_id": "bone_meal",
+        "amount": 3,
+        "duration": 20,
+        "recipe": [
+            { "item": "bone", "amount": 1 }
+        ]
+    },
+    {
+        "category": "ingridients",
+        "item_id": "iron",
+        "amount": 3,
+        "duration": 20,
+        "recipe": [
+            { "item": "raw_iron", "amount": 1 },
+            { "item": "coal", "amount": 1 }
+        ]
+    },
+    {
+        "category": "ingridients",
+        "item_id": "cooked_meat",
+        "duration": 20,
+        "recipe": [
+            { "item": "raw_meat", "amount": 1 },
+            { "item": "coal", "amount": 1 }
+        ]
+    },
+    {
         "category": "tools",
         "item_id": "wooden_sword",
         "duration": 20,

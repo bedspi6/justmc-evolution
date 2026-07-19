@@ -20,6 +20,13 @@
       "type": "beef"
     }
   },
+  "cooked_meat": {
+    "item": {
+      "name": "Мясо",
+      "lore": "",
+      "type": "cooked_beef"
+    }
+  },
   "feather": {
     "item": {
       "name": "Перо",
@@ -105,6 +112,13 @@
       "name": "Железная руда",
       "lore": "<gray>Необработанный кусок железа, ценное сырьё для кузнецов.",
       "type": "raw_iron"
+    }
+  },
+  "coal": {
+    "item": {
+      "name": "Уголь",
+      "lore": "",
+      "type": "coal"
     }
   },
   "iron": {

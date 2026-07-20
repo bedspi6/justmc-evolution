@@ -157,5 +157,67 @@
     "drops": [
       { "item": "slime_ball", "amount": 1 }
     ]
+  },
+  "chicken": {
+    "type": "chicken",
+    "display_name": "КУРИЦА",
+    "display_item": {
+      "type": "chicken_spawn_egg",
+      "name": "Курица",
+      "lore": "<gray>Мирный моб"
+    },
+    "display_lore": {
+      "hp": "low",
+      "damage": "low",
+      "speed": "medium"
+    },
+    "hp": { "base": 4, "per_level": 1 },
+    "damage": { "base": 0, "per_level": 0 },
+    "speed": { "base": 0.25 },
+    "drops": [
+      { "item": "feather", "amount": 1 },
+      { "item": "raw_meat", "amount": 1 }
+    ]
+  },
+  "cow": {
+    "type": "cow",
+    "display_name": "КОРОВА",
+    "display_item": {
+      "type": "cow_spawn_egg",
+      "name": "Корова",
+      "lore": "<gray>Мирный моб"
+    },
+    "display_lore": {
+      "hp": "low",
+      "damage": "low",
+      "speed": "low"
+    },
+    "hp": { "base": 10, "per_level": 2 },
+    "damage": { "base": 0, "per_level": 0 },
+    "speed": { "base": 0.2 },
+    "drops": [
+      { "item": "leather", "amount": 1 },
+      { "item": "raw_meat", "amount": 1 }
+    ]
+  },
+  "pig": {
+    "type": "pig",
+    "display_name": "СВИНЬЯ",
+    "display_item": {
+      "type": "pig_spawn_egg",
+      "name": "Свинья",
+      "lore": "<gray>Мирный моб"
+    },
+    "display_lore": {
+      "hp": "low",
+      "damage": "low",
+      "speed": "low"
+    },
+    "hp": { "base": 10, "per_level": 2 },
+    "damage": { "base": 0, "per_level": 0 },
+    "speed": { "base": 0.2 },
+    "drops": [
+      { "item": "raw_meat", "amount": 1 }
+    ]
   }
 }

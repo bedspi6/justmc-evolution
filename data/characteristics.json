@@ -156,8 +156,9 @@
     }
   },
   "swimSpeed": {
-    "type": "manual",
-    "base_value": 100,
+    "type": "attribute",
+    "attribute_id": "generic_water_movement_efficiency",
+    "base_value": 0,
     "display_item": {
       "name": "Скорость плавания",
       "lore": "<gray>Насколько быстро существо плывёт.",
@@ -183,12 +184,13 @@
       "type": "feather"
     }
   },
-  "fallDamageReduction": {
-    "type": "manual",
+  "safeFallDistance": {
+    "type": "attribute",
+    "attribute_id": "generic_safe_fall_distance",
     "base_value": 0,
     "display_item": {
-      "name": "Снижение урона от падения",
-      "lore": "<gray>Насколько меньше урона наносит падение.",
+      "name": "Увеличение безопасной высоты падения",
+      "lore": "<gray>Увеличивает высоту, с которой существо может упасть без получения урона.",
       "type": "slime_ball"
     }
   },

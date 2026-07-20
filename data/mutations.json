@@ -332,7 +332,7 @@
       { "type": "resource", "data": { "item": "slime_ball", "amount": 6, "per_level": 1 } }
     ],
     "rewards": [
-      { "type": "stat_flat", "data": { "stat": "fallDamageReduction", "value": 1, "per_level": 0 } }
+      { "type": "stat_flat", "data": { "stat": "safeFallDistance", "value": 1, "per_level": 0 } }
     ]
   },
   "counter_balance": {

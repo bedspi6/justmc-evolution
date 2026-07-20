@@ -41,5 +41,7 @@
   "iron_shovel": "<sprite:items:item/iron_shovel>",
   "poisonous_potato": "<sprite:items:item/poisonous_potato>",
   "glow_ink_sac": "<sprite:items:item/glow_ink_sac>",
-  "iron_ingot": "<sprite:items:item/iron_ingot>"
+  "iron_ingot": "<sprite:items:item/iron_ingot>",
+  "coal": "<sprite:items:item/coal>",
+  "cooked_beef": "<sprite:items:item/cooked_beef>"
 }

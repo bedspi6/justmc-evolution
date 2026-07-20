@@ -118,7 +118,7 @@
   },
   "mpGain": {
     "type": "manual",
-    "base_value": 100,
+    "base_value": 0,
     "display_item": {
       "name": "Получение очков мутации",
       "lore": "<gray>Насколько эффективно существо получает очки мутации.",

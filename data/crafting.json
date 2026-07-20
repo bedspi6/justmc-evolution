@@ -1,6 +1,6 @@
 [
     {
-        "category": "ingridients",
+        "category": "ingredients",
         "item_id": "bone_meal",
         "amount": 3,
         "duration": 20,
@@ -9,7 +9,7 @@
         ]
     },
     {
-        "category": "ingridients",
+        "category": "ingredients",
         "item_id": "iron",
         "amount": 3,
         "duration": 20,
@@ -19,7 +19,7 @@
         ]
     },
     {
-        "category": "ingridients",
+        "category": "ingredients",
         "item_id": "cooked_meat",
         "duration": 20,
         "recipe": [

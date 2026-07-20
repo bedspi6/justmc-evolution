@@ -139,7 +139,8 @@
     "item": {
       "name": "Деревянная кирка",
       "lore": "<gray>Простой инструмент для добычи камня.",
-      "type": "wooden_pickaxe"
+      "type": "wooden_pickaxe",
+      "flags": ["unbreakable"]
     },
     "actions": {
       "hold": {},
@@ -152,7 +153,8 @@
     "item": {
       "name": "Деревянный топор",
       "lore": "<gray>Простой инструмент для рубки дерева.",
-      "type": "wooden_axe"
+      "type": "wooden_axe",
+      "flags": ["unbreakable"]
     },
     "actions": {
       "hold": {},
@@ -166,7 +168,8 @@
       "name": "Деревянный меч",
       "lore": "<gray>Слабое оружие для первых шагов.",
       "type": "wooden_sword",
-      "nbts": {"sword": "true"}
+      "nbts": {"sword": "true"},
+      "flags": ["unbreakable"]
     },
     "actions": {
       "hold": {}
@@ -176,7 +179,8 @@
     "item": {
       "name": "Каменная кирка",
       "lore": "<gray>Крепче дерева, добывает больше руд.",
-      "type": "stone_pickaxe"
+      "type": "stone_pickaxe",
+      "flags": ["unbreakable"]
     },
     "actions": {
       "hold": {},
@@ -189,7 +193,8 @@
     "item": {
       "name": "Каменный топор",
       "lore": "<gray>Крепче дерева, рубит быстрее.",
-      "type": "stone_axe"
+      "type": "stone_axe",
+      "flags": ["unbreakable"]
     },
     "actions": {
       "hold": {},
@@ -203,7 +208,8 @@
       "name": "Каменный меч",
       "lore": "<gray>Надёжное оружие для первых охот.",
       "type": "stone_sword",
-      "nbts": {"sword": "true"}
+      "nbts": {"sword": "true"},
+      "flags": ["unbreakable"]
     },
     "actions": {
       "hold": {}
@@ -213,7 +219,8 @@
     "item": {
       "name": "Железная кирка",
       "lore": "<gray>Прочный инструмент, добывает редкие руды.",
-      "type": "iron_pickaxe"
+      "type": "iron_pickaxe",
+      "flags": ["unbreakable"]
     },
     "actions": {
       "hold": {},
@@ -226,7 +233,8 @@
     "item": {
       "name": "Железный топор",
       "lore": "<gray>Прочный инструмент, рубит без устали.",
-      "type": "iron_axe"
+      "type": "iron_axe",
+      "flags": ["unbreakable"]
     },
     "actions": {
       "hold": {},
@@ -240,7 +248,8 @@
       "name": "Железный меч",
       "lore": "<gray>Серьёзное оружие для опытного охотника.",
       "type": "iron_sword",
-      "nbts": {"sword": "true"}
+      "nbts": {"sword": "true"},
+      "flags": ["unbreakable"]
     },
     "actions": {
       "hold": {}

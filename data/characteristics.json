@@ -12,7 +12,7 @@
   "biteCooldown": {
     "type": "ability",
     "ability_id": "bite",
-    "base_value": 100,
+    "base_value": 10,
     "display_item": {
       "name": "Заддержка укуса",
       "lore": "<gray>Насколько быстро наносится укус.",
@@ -32,7 +32,7 @@
   "rangedCooldown": {
     "type": "ability",
     "ability_id": "split",
-    "base_value": 0,
+    "base_value": 10,
     "display_item": {
       "name": "Заддержка дальной атаки",
       "lore": "<gray>Заддержка броскового удара.",
@@ -138,9 +138,9 @@
   "tailAttackCooldown": {
     "type": "ability",
     "ability_id": "tailAttack",
-    "base_value": 100,
+    "base_value": 10,
     "display_item": {
-      "name": "Заддержка удара хвостом",
+      "name": "Задержка удара хвостом",
       "lore": "<gray>Насколько хвосту придется ждать.",
       "type": "string"
     }

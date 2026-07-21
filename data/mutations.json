@@ -30,7 +30,7 @@
       { "type": "resource", "data": { "item": "slime_ball", "amount": 6, "per_level": 1 } }
     ],
     "rewards": [
-      { "type": "stat_flat", "data": { "stat": "biteCooldown", "value": -20, "per_level": 0 } }
+      { "type": "stat_flat", "data": { "stat": "biteCooldown", "value": -1, "per_level": 0 } }
     ]
   },
   "venom_glands": {

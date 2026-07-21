@@ -168,7 +168,7 @@
   "digDuration": {
     "type": "ability",
     "ability_id": "dig",
-    "base_value": 100,
+    "base_value": 10,
     "display_item": {
       "name": "Время копания",
       "lore": "<gray>Сколько времени требуется для копания.",

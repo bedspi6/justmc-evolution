@@ -53,7 +53,7 @@
   },
   "keen_smell": {
     "branch_id": "scavenger",
-    "max_level": 3,
+    "max_level": 5,
     "display_item": {
       "name": "Острое чутьё",
       "lore": "<gray>Обоняние обостряется, позволяя чувствовать ресурсы на большем расстоянии.",
@@ -64,7 +64,7 @@
       { "type": "resource", "data": { "item": "rotten_flesh", "amount": 8, "per_level": 1 } }
     ],
     "rewards": [
-      { "type": "stat_flat", "data": { "stat": "detectionRadius", "value": 1, "per_level": 0.5 } }
+      { "type": "stat_flat", "data": { "stat": "detectionRadius", "value": 1, "per_level": 0 } }
     ]
   },
   "efficient_digestion": {
@@ -265,7 +265,7 @@
       { "type": "resource", "data": { "item": "leather", "amount": 6, "per_level": 1 } }
     ],
     "rewards": [
-      { "type": "stat_flat", "data": { "stat": "digDuration", "value": -20, "per_level": 0 } },
+      { "type": "stat_flat", "data": { "stat": "digDuration", "value": -1, "per_level": 0 } },
       { "type": "unlock_ability", "data": { "ability_id": "dig" } }
     ]
   },

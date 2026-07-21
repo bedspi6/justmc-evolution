@@ -231,7 +231,7 @@
       { "type": "resource", "data": { "item": "string", "amount": 6, "per_level": 1 } }
     ],
     "rewards": [
-      { "type": "stat_flat", "data": { "stat": "tailAttackCooldown", "value": -20, "per_level": 0 } },
+      { "type": "stat_flat", "data": { "stat": "tailAttackCooldown", "value": -1, "per_level": 0 } },
       { "type": "unlock_ability", "data": { "ability_id": "tailAttack" } }
     ]
   },
